@@ -1,0 +1,1110 @@
+{
+  "search_metadata": {
+    "id": "69688beff8cc785de15275a8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/adb99bc054dc346a/69688beff8cc785de15275a8.json",
+    "created_at": "2026-01-15 06:40:47 UTC",
+    "processed_at": "2026-01-15 06:40:47 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=remote+software+engineer&hl=en&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/adb99bc054dc346a/69688beff8cc785de15275a8.html",
+    "total_time_taken": 0.99
+  },
+  "search_parameters": {
+    "q": "remote software engineer",
+    "engine": "google_jobs",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "filters": [
+    {
+      "name": "No degree",
+      "parameters": {
+        "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-UMsI-m6woWR9vBv8rV6nl7lK3GWOQmaNmYtUgjbJ2N1atjY6EXvaHj1bJirv5_dBaVGCKGJtUkcRmE_h0Ijkwd39XFCkeB5r_yFsM6kQJ52zrjMjdXQTBnAJZgT3GTfTCAGvGm6p4SR1Qx9LzGV22TWKVcwnVVTtQSJwxV0bLknEAama",
+        "q": "remote software engineer no degree"
+      },
+      "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+no+degree&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-UMsI-m6woWR9vBv8rV6nl7lK3GWOQmaNmYtUgjbJ2N1atjY6EXvaHj1bJirv5_dBaVGCKGJtUkcRmE_h0Ijkwd39XFCkeB5r_yFsM6kQJ52zrjMjdXQTBnAJZgT3GTfTCAGvGm6p4SR1Qx9LzGV22TWKVcwnVVTtQSJwxV0bLknEAama&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QxKsJKAB6BAgTEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+no+degree&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-UMsI-m6woWR9vBv8rV6nl7lK3GWOQmaNmYtUgjbJ2N1atjY6EXvaHj1bJirv5_dBaVGCKGJtUkcRmE_h0Ijkwd39XFCkeB5r_yFsM6kQJ52zrjMjdXQTBnAJZgT3GTfTCAGvGm6p4SR1Qx9LzGV22TWKVcwnVVTtQSJwxV0bLknEAama"
+    },
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Q4aybo1RZfBABtR3q4ZRtShXpg00rUo5AZM8qdpCUA22qgNPtE9FjHY2ECgjjskHTmkmkffBjV2NUJSLYUCVfKjnWLHJxRqUuzxcCotEQ-x11dO1UUqjj_LnuRd7SXjdlj2aQnzW0Jrf02hANIDny3OnpgI",
+        "q": "remote software engineer remote"
+      },
+      "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+remote&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Q4aybo1RZfBABtR3q4ZRtShXpg00rUo5AZM8qdpCUA22qgNPtE9FjHY2ECgjjskHTmkmkffBjV2NUJSLYUCVfKjnWLHJxRqUuzxcCotEQ-x11dO1UUqjj_LnuRd7SXjdlj2aQnzW0Jrf02hANIDny3OnpgI&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QxKsJKAF6BAgSEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+remote&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Q4aybo1RZfBABtR3q4ZRtShXpg00rUo5AZM8qdpCUA22qgNPtE9FjHY2ECgjjskHTmkmkffBjV2NUJSLYUCVfKjnWLHJxRqUuzxcCotEQ-x11dO1UUqjj_LnuRd7SXjdlj2aQnzW0Jrf02hANIDny3OnpgI"
+    },
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Q4aybo1RZfBABtR3q4ZRtShXpg00rUo5AZM8qdpCUA22qgNPtE9FjHY2ECgjjskHTmkmkffBjV2NUJSLYUCVfKjnWLHJxRqUuzxcCotEQ-x11dO1UUqjj_LnuRd7SXjdlj2aQnzW0Jrf02hANIDny3OnpgI",
+        "q": "remote software engineer remote"
+      },
+      "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+remote&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Q4aybo1RZfBABtR3q4ZRtShXpg00rUo5AZM8qdpCUA22qgNPtE9FjHY2ECgjjskHTmkmkffBjV2NUJSLYUCVfKjnWLHJxRqUuzxcCotEQ-x11dO1UUqjj_LnuRd7SXjdlj2aQnzW0Jrf02hANIDny3OnpgI&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QxKsJKAJ6BAgWEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+remote&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Q4aybo1RZfBABtR3q4ZRtShXpg00rUo5AZM8qdpCUA22qgNPtE9FjHY2ECgjjskHTmkmkffBjV2NUJSLYUCVfKjnWLHJxRqUuzxcCotEQ-x11dO1UUqjj_LnuRd7SXjdlj2aQnzW0Jrf02hANIDny3OnpgI"
+    },
+    {
+      "name": "No degree",
+      "parameters": {
+        "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-UMsI-m6woWR9vBv8rV6nl7lK3GWOQmaNmYtUgjbJ2N1atjY6EXvaHj1bJirv5_dBaVGCKGJtUkcRmE_h0Ijkwd39XFCkeB5r_yFsM6kQJ52zrjMjdXQTBnAJZgT3GTfTCAGvGm6p4SR1Qx9LzGV22TWKVcwnVVTtQSJwxV0bLknEAama",
+        "q": "remote software engineer no degree"
+      },
+      "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+no+degree&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-UMsI-m6woWR9vBv8rV6nl7lK3GWOQmaNmYtUgjbJ2N1atjY6EXvaHj1bJirv5_dBaVGCKGJtUkcRmE_h0Ijkwd39XFCkeB5r_yFsM6kQJ52zrjMjdXQTBnAJZgT3GTfTCAGvGm6p4SR1Qx9LzGV22TWKVcwnVVTtQSJwxV0bLknEAama&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QxKsJKAN6BAgVEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+no+degree&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-UMsI-m6woWR9vBv8rV6nl7lK3GWOQmaNmYtUgjbJ2N1atjY6EXvaHj1bJirv5_dBaVGCKGJtUkcRmE_h0Ijkwd39XFCkeB5r_yFsM6kQJ52zrjMjdXQTBnAJZgT3GTfTCAGvGm6p4SR1Qx9LzGV22TWKVcwnVVTtQSJwxV0bLknEAama"
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0",
+            "q": "remote software engineer full time"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+full+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+full+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc",
+            "q": "remote software engineer part time"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+part+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+part+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw",
+            "q": "remote software engineer contract"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+contract&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+contract&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ",
+            "q": "remote software engineer internship"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+internship&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+internship&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0",
+            "q": "remote software engineer full time"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+full+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+full+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc",
+            "q": "remote software engineer part time"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+part+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+part+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw",
+            "q": "remote software engineer contract"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+contract&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+contract&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ",
+            "q": "remote software engineer internship"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+internship&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQIGBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+internship&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0",
+            "q": "remote software engineer full time"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+full+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILhAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+full+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmil-P864tZ3JNMB9J94OsPjj5DDktpEDh87v4mupM5H_EF4daLCaP6XdNntOPfMZjplDHgAuAUsFaboejPwWJsRNhXdo7DcZuH-DYx8170JK8b2NMmOYUpSE48UPiYA6aZNH8rVtTrAs-Hy4LDgJJhEtWfgu_E6hxSlckcYaqcuVmRT4zjaqJsecK9-UUZJPPYrGzOMxBwNHS-T5e8_E6JbRIjhsn5JJyao9pcqUiDtCeHGbRaib_d1MVM4CpkNcf6ebvHdttMIAzfdGcCwdIRepEFJA0"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc",
+            "q": "remote software engineer part time"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+part+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILhAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+part+time&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-YdvCraZJxY9ap7T90DKpZqb3nXPPuJbAeqgeHJ76SHO5kMt4RZTZIglNzAT3gBmiteQ3vPA4tvEdYXKtCezg3tjE4OzMgISlUIN573LBUHlLCq17Ts5OD4yTF0XA9sN9VGWmEOiDthHAakJ9r9Rk--LOEDBQmh_vc9ETqGKj0MmQHgH9DzmTtlnX3W7sfOHuoEtV0OKKfvVHqtB2_8ZaAS3XYbq3Zgh47wynTjMOsubnEKlMK_BY-PhivI85xnHtVP9sNDAOJkmqlWpbY9o1C0Xomde_RM7xUQkXG2R64qYy1EtmZTt7yd0sCcchYxTS_Tuo1Bv2YCIMt1ssFJEUq7k1OFc"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw",
+            "q": "remote software engineer contract"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+contract&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILhAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+contract&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-ohTsy29VljORSPBLX_pNdUVcVj3_BL6nJB99kllCABThokvls4shf9ejKfycD4_bGlsuVtCFRLiymQYF_PnJKcl-Twn0MX31jamgaybdlNr3Z0e5E-pfypk2XU9c8Wqb8n9qLLMQ7LH3GMeXGCXyQheF4xbSeeMTP4Cy01gqkoWeTOupKWUGna0cffF3slJGfQbTXS2KwjPuPgYnlzepbYHn-9MlGoet4C_hRjRYINZO6sW9U85kQybsMIqoYcNBnewJfchAFT13OouvfkB0GL1sIVx8yuVazw8TdHC22iG9iw_ffig3wLEyga3LbAziboOBaw"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ",
+            "q": "remote software engineer internship"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+internship&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILhAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+internship&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Eld9GCtkqbr8_TftwSQv60LvT7GW0GzAAimFr413Fnzi_JcddjUIcbZ8cH0f7SgJndme4uDAoO17meF5LtcTIbNE1nOjQvuf70ArdJ5GZj4dDyWJPyq-ifCW7PqtWoBRf_D07HM3nWIYbtAXt1kNP6b-TLEeUIwo6zo9X8uBHt88_eppEFth0DurLqeo8go5u5P8g9P-CYDWpg92RcX8eusC1-z8GZa_ZzzcLgFSrMZypD6pRbRC3IZrxdKLN8Ugh3phczWT6pMSwWwvw-09w6Ka-x6NuJ2_n4FPOsTp752KHMwVb_ehvsgW5Pnga2LbcGgkXQ"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-oxGoLZaqqLX3iRKAwR4amlytXA-iQy2QZAf28QqHPuOWfme9vri0fSk1dqlQBiSslvJ1YaZuvN_fovoe6GixCrrGsNfv5kewB4saBaI67n4san-3hwtTMb65oaehL5twQ9yZ5Is8ju0edC1qIJUIxe6fbBYhawXI2WTR0MDdYAtecSsVOijir03zWxA4piP49PFoUdgTbdlV6Y1FV-VozZWwFurRuQRUbfEv3s5KYbYgwXk8BGbgkcQJYfjVa6v9MGaYbil9vGIPa4RfWR0Kl4Zl95LvoU51rGHR4MPhtjMFZziqtqjfnH3t9aMmafUcJFoHVV8by1mSe_NjwSGiLL57-zw",
+            "q": "remote software engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+since+yesterday&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-oxGoLZaqqLX3iRKAwR4amlytXA-iQy2QZAf28QqHPuOWfme9vri0fSk1dqlQBiSslvJ1YaZuvN_fovoe6GixCrrGsNfv5kewB4saBaI67n4san-3hwtTMb65oaehL5twQ9yZ5Is8ju0edC1qIJUIxe6fbBYhawXI2WTR0MDdYAtecSsVOijir03zWxA4piP49PFoUdgTbdlV6Y1FV-VozZWwFurRuQRUbfEv3s5KYbYgwXk8BGbgkcQJYfjVa6v9MGaYbil9vGIPa4RfWR0Kl4Zl95LvoU51rGHR4MPhtjMFZziqtqjfnH3t9aMmafUcJFoHVV8by1mSe_NjwSGiLL57-zw&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILRAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+since+yesterday&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-oxGoLZaqqLX3iRKAwR4amlytXA-iQy2QZAf28QqHPuOWfme9vri0fSk1dqlQBiSslvJ1YaZuvN_fovoe6GixCrrGsNfv5kewB4saBaI67n4san-3hwtTMb65oaehL5twQ9yZ5Is8ju0edC1qIJUIxe6fbBYhawXI2WTR0MDdYAtecSsVOijir03zWxA4piP49PFoUdgTbdlV6Y1FV-VozZWwFurRuQRUbfEv3s5KYbYgwXk8BGbgkcQJYfjVa6v9MGaYbil9vGIPa4RfWR0Kl4Zl95LvoU51rGHR4MPhtjMFZziqtqjfnH3t9aMmafUcJFoHVV8by1mSe_NjwSGiLL57-zw"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-t_aoT3xT2ANlXeoyXFliaXKYiZmoLNOCpGTwF24QFjH2liVtmXSXuzBMh5_SoymOD06_r3-qVJ8kU_JVRx6Pjqtyxd9oE9XGaTA2TKWWur7Wz3AfJDaSD-WofR2bjj5urPVEktLlxzGYGhZx0xFkpeSNyfuTfzc94sR7H_B7KLASUq4jDoL4_IkLmXIQmu5tdOtZG0wS2rKogmRyuSUc5COwTvFmikF6AiJB6TtR0kE6g_NIZ00HGLXdOS-w0SYWmfOUObRPk5UrJjn0bjAD3_qDlqC9AyNx5fqQBcOvFeBETnyXt4sPgvhAOVAFoNaguLfXl7zGKK_Gr2WUTMjUS4fV3-Q",
+            "q": "remote software engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+in+the+last+3+days&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-t_aoT3xT2ANlXeoyXFliaXKYiZmoLNOCpGTwF24QFjH2liVtmXSXuzBMh5_SoymOD06_r3-qVJ8kU_JVRx6Pjqtyxd9oE9XGaTA2TKWWur7Wz3AfJDaSD-WofR2bjj5urPVEktLlxzGYGhZx0xFkpeSNyfuTfzc94sR7H_B7KLASUq4jDoL4_IkLmXIQmu5tdOtZG0wS2rKogmRyuSUc5COwTvFmikF6AiJB6TtR0kE6g_NIZ00HGLXdOS-w0SYWmfOUObRPk5UrJjn0bjAD3_qDlqC9AyNx5fqQBcOvFeBETnyXt4sPgvhAOVAFoNaguLfXl7zGKK_Gr2WUTMjUS4fV3-Q&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILRAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+in+the+last+3+days&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-t_aoT3xT2ANlXeoyXFliaXKYiZmoLNOCpGTwF24QFjH2liVtmXSXuzBMh5_SoymOD06_r3-qVJ8kU_JVRx6Pjqtyxd9oE9XGaTA2TKWWur7Wz3AfJDaSD-WofR2bjj5urPVEktLlxzGYGhZx0xFkpeSNyfuTfzc94sR7H_B7KLASUq4jDoL4_IkLmXIQmu5tdOtZG0wS2rKogmRyuSUc5COwTvFmikF6AiJB6TtR0kE6g_NIZ00HGLXdOS-w0SYWmfOUObRPk5UrJjn0bjAD3_qDlqC9AyNx5fqQBcOvFeBETnyXt4sPgvhAOVAFoNaguLfXl7zGKK_Gr2WUTMjUS4fV3-Q"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-PISY1zO10dKPlEuKKfTHdiVA5bqU_CvQVQ1NY3c-IxFCpmOUzD-dHItmiWfr0MAWxCd3fKiaXz3RW2aq5YkpRifT3NHULqlcv4PLRlM9vs5zsCkdjhbjp8kuNTqbfYKL3zu4gzsKZORZPwPKHbIbqqHvcOXfhdavIJRl5DBwBawI6C1RBmAkK2YfT_nnzVtCzBCiRJfMAMrXZtuWFT8xww61YTvznNHi346azwx-qUd4bbZiFoV2Z742OafI9T2GpxcMTlCQuHvtZeuXMMPRcQ9TlivQ1jerMGRFZf3Sa9szxCOygcbSKCaznw5kP1Y2mYpfEAJ-DE4kda-Z3CicAHD8ep0",
+            "q": "remote software engineer in the last week"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+in+the+last+week&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-PISY1zO10dKPlEuKKfTHdiVA5bqU_CvQVQ1NY3c-IxFCpmOUzD-dHItmiWfr0MAWxCd3fKiaXz3RW2aq5YkpRifT3NHULqlcv4PLRlM9vs5zsCkdjhbjp8kuNTqbfYKL3zu4gzsKZORZPwPKHbIbqqHvcOXfhdavIJRl5DBwBawI6C1RBmAkK2YfT_nnzVtCzBCiRJfMAMrXZtuWFT8xww61YTvznNHi346azwx-qUd4bbZiFoV2Z742OafI9T2GpxcMTlCQuHvtZeuXMMPRcQ9TlivQ1jerMGRFZf3Sa9szxCOygcbSKCaznw5kP1Y2mYpfEAJ-DE4kda-Z3CicAHD8ep0&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILRAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+in+the+last+week&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-PISY1zO10dKPlEuKKfTHdiVA5bqU_CvQVQ1NY3c-IxFCpmOUzD-dHItmiWfr0MAWxCd3fKiaXz3RW2aq5YkpRifT3NHULqlcv4PLRlM9vs5zsCkdjhbjp8kuNTqbfYKL3zu4gzsKZORZPwPKHbIbqqHvcOXfhdavIJRl5DBwBawI6C1RBmAkK2YfT_nnzVtCzBCiRJfMAMrXZtuWFT8xww61YTvznNHi346azwx-qUd4bbZiFoV2Z742OafI9T2GpxcMTlCQuHvtZeuXMMPRcQ9TlivQ1jerMGRFZf3Sa9szxCOygcbSKCaznw5kP1Y2mYpfEAJ-DE4kda-Z3CicAHD8ep0"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-CYU83ib0a9TcSDi79rcpXVtpMoo8Vs-dBWywuYixS0tsxrQUvdO3a-V6lkP3aZKIpj24AeaYgU7305nXl64b1zlU9mOn_wrS9GU2lwD0DDSvCtITHV7ElgsMS13FpAGHdnH_YPJChtr28Tw_5kmkXfd9tPRrYQnkb5F5LVRhnlNfhFR_HBmab_JiE94xPTdnjgfPVFMsxhT8uECLXfjCZ8Dntm6xZqr29qu-4zV7vxHjdpsikwJk4aMvzyZpmYKiYGk12QbntB8yR93uRtWFGuvvyxBqf5f91IwobIwuPT_Of0l-YsOsIA9W_i7GXGFnxqGsxveXdj4s70k612C6D5kySE8",
+            "q": "remote software engineer in the last month"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+in+the+last+month&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-CYU83ib0a9TcSDi79rcpXVtpMoo8Vs-dBWywuYixS0tsxrQUvdO3a-V6lkP3aZKIpj24AeaYgU7305nXl64b1zlU9mOn_wrS9GU2lwD0DDSvCtITHV7ElgsMS13FpAGHdnH_YPJChtr28Tw_5kmkXfd9tPRrYQnkb5F5LVRhnlNfhFR_HBmab_JiE94xPTdnjgfPVFMsxhT8uECLXfjCZ8Dntm6xZqr29qu-4zV7vxHjdpsikwJk4aMvzyZpmYKiYGk12QbntB8yR93uRtWFGuvvyxBqf5f91IwobIwuPT_Of0l-YsOsIA9W_i7GXGFnxqGsxveXdj4s70k612C6D5kySE8&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILRAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+in+the+last+month&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-CYU83ib0a9TcSDi79rcpXVtpMoo8Vs-dBWywuYixS0tsxrQUvdO3a-V6lkP3aZKIpj24AeaYgU7305nXl64b1zlU9mOn_wrS9GU2lwD0DDSvCtITHV7ElgsMS13FpAGHdnH_YPJChtr28Tw_5kmkXfd9tPRrYQnkb5F5LVRhnlNfhFR_HBmab_JiE94xPTdnjgfPVFMsxhT8uECLXfjCZ8Dntm6xZqr29qu-4zV7vxHjdpsikwJk4aMvzyZpmYKiYGk12QbntB8yR93uRtWFGuvvyxBqf5f91IwobIwuPT_Of0l-YsOsIA9W_i7GXGFnxqGsxveXdj4s70k612C6D5kySE8"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-oxGoLZaqqLX3iRKAwR4amlytXA-iQy2QZAf28QqHPuOWfme9vri0fSk1dqlQBiSslvJ1YaZuvN_fovoe6GixCrrGsNfv5kewB4saBaI67n4san-3hwtTMb65oaehL5twQ9yZ5Is8ju0edC1qIJUIxe6fbBYhawXI2WTR0MDdYAtecSsVOijir03zWxA4piP49PFoUdgTbdlV6Y1FV-VozZWwFurRuQRUbfEv3s5KYbYgwXk8BGbgkcQJYfjVa6v9MGaYbil9vGIPa4RfWR0Kl4Zl95LvoU51rGHR4MPhtjMFZziqtqjfnH3t9aMmafUcJFoHVV8by1mSe_NjwSGiLL57-zw",
+            "q": "remote software engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+since+yesterday&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-oxGoLZaqqLX3iRKAwR4amlytXA-iQy2QZAf28QqHPuOWfme9vri0fSk1dqlQBiSslvJ1YaZuvN_fovoe6GixCrrGsNfv5kewB4saBaI67n4san-3hwtTMb65oaehL5twQ9yZ5Is8ju0edC1qIJUIxe6fbBYhawXI2WTR0MDdYAtecSsVOijir03zWxA4piP49PFoUdgTbdlV6Y1FV-VozZWwFurRuQRUbfEv3s5KYbYgwXk8BGbgkcQJYfjVa6v9MGaYbil9vGIPa4RfWR0Kl4Zl95LvoU51rGHR4MPhtjMFZziqtqjfnH3t9aMmafUcJFoHVV8by1mSe_NjwSGiLL57-zw&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+since+yesterday&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-oxGoLZaqqLX3iRKAwR4amlytXA-iQy2QZAf28QqHPuOWfme9vri0fSk1dqlQBiSslvJ1YaZuvN_fovoe6GixCrrGsNfv5kewB4saBaI67n4san-3hwtTMb65oaehL5twQ9yZ5Is8ju0edC1qIJUIxe6fbBYhawXI2WTR0MDdYAtecSsVOijir03zWxA4piP49PFoUdgTbdlV6Y1FV-VozZWwFurRuQRUbfEv3s5KYbYgwXk8BGbgkcQJYfjVa6v9MGaYbil9vGIPa4RfWR0Kl4Zl95LvoU51rGHR4MPhtjMFZziqtqjfnH3t9aMmafUcJFoHVV8by1mSe_NjwSGiLL57-zw"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-t_aoT3xT2ANlXeoyXFliaXKYiZmoLNOCpGTwF24QFjH2liVtmXSXuzBMh5_SoymOD06_r3-qVJ8kU_JVRx6Pjqtyxd9oE9XGaTA2TKWWur7Wz3AfJDaSD-WofR2bjj5urPVEktLlxzGYGhZx0xFkpeSNyfuTfzc94sR7H_B7KLASUq4jDoL4_IkLmXIQmu5tdOtZG0wS2rKogmRyuSUc5COwTvFmikF6AiJB6TtR0kE6g_NIZ00HGLXdOS-w0SYWmfOUObRPk5UrJjn0bjAD3_qDlqC9AyNx5fqQBcOvFeBETnyXt4sPgvhAOVAFoNaguLfXl7zGKK_Gr2WUTMjUS4fV3-Q",
+            "q": "remote software engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+in+the+last+3+days&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-t_aoT3xT2ANlXeoyXFliaXKYiZmoLNOCpGTwF24QFjH2liVtmXSXuzBMh5_SoymOD06_r3-qVJ8kU_JVRx6Pjqtyxd9oE9XGaTA2TKWWur7Wz3AfJDaSD-WofR2bjj5urPVEktLlxzGYGhZx0xFkpeSNyfuTfzc94sR7H_B7KLASUq4jDoL4_IkLmXIQmu5tdOtZG0wS2rKogmRyuSUc5COwTvFmikF6AiJB6TtR0kE6g_NIZ00HGLXdOS-w0SYWmfOUObRPk5UrJjn0bjAD3_qDlqC9AyNx5fqQBcOvFeBETnyXt4sPgvhAOVAFoNaguLfXl7zGKK_Gr2WUTMjUS4fV3-Q&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+in+the+last+3+days&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-t_aoT3xT2ANlXeoyXFliaXKYiZmoLNOCpGTwF24QFjH2liVtmXSXuzBMh5_SoymOD06_r3-qVJ8kU_JVRx6Pjqtyxd9oE9XGaTA2TKWWur7Wz3AfJDaSD-WofR2bjj5urPVEktLlxzGYGhZx0xFkpeSNyfuTfzc94sR7H_B7KLASUq4jDoL4_IkLmXIQmu5tdOtZG0wS2rKogmRyuSUc5COwTvFmikF6AiJB6TtR0kE6g_NIZ00HGLXdOS-w0SYWmfOUObRPk5UrJjn0bjAD3_qDlqC9AyNx5fqQBcOvFeBETnyXt4sPgvhAOVAFoNaguLfXl7zGKK_Gr2WUTMjUS4fV3-Q"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-PISY1zO10dKPlEuKKfTHdiVA5bqU_CvQVQ1NY3c-IxFCpmOUzD-dHItmiWfr0MAWxCd3fKiaXz3RW2aq5YkpRifT3NHULqlcv4PLRlM9vs5zsCkdjhbjp8kuNTqbfYKL3zu4gzsKZORZPwPKHbIbqqHvcOXfhdavIJRl5DBwBawI6C1RBmAkK2YfT_nnzVtCzBCiRJfMAMrXZtuWFT8xww61YTvznNHi346azwx-qUd4bbZiFoV2Z742OafI9T2GpxcMTlCQuHvtZeuXMMPRcQ9TlivQ1jerMGRFZf3Sa9szxCOygcbSKCaznw5kP1Y2mYpfEAJ-DE4kda-Z3CicAHD8ep0",
+            "q": "remote software engineer in the last week"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+in+the+last+week&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-PISY1zO10dKPlEuKKfTHdiVA5bqU_CvQVQ1NY3c-IxFCpmOUzD-dHItmiWfr0MAWxCd3fKiaXz3RW2aq5YkpRifT3NHULqlcv4PLRlM9vs5zsCkdjhbjp8kuNTqbfYKL3zu4gzsKZORZPwPKHbIbqqHvcOXfhdavIJRl5DBwBawI6C1RBmAkK2YfT_nnzVtCzBCiRJfMAMrXZtuWFT8xww61YTvznNHi346azwx-qUd4bbZiFoV2Z742OafI9T2GpxcMTlCQuHvtZeuXMMPRcQ9TlivQ1jerMGRFZf3Sa9szxCOygcbSKCaznw5kP1Y2mYpfEAJ-DE4kda-Z3CicAHD8ep0&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+in+the+last+week&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-PISY1zO10dKPlEuKKfTHdiVA5bqU_CvQVQ1NY3c-IxFCpmOUzD-dHItmiWfr0MAWxCd3fKiaXz3RW2aq5YkpRifT3NHULqlcv4PLRlM9vs5zsCkdjhbjp8kuNTqbfYKL3zu4gzsKZORZPwPKHbIbqqHvcOXfhdavIJRl5DBwBawI6C1RBmAkK2YfT_nnzVtCzBCiRJfMAMrXZtuWFT8xww61YTvznNHi346azwx-qUd4bbZiFoV2Z742OafI9T2GpxcMTlCQuHvtZeuXMMPRcQ9TlivQ1jerMGRFZf3Sa9szxCOygcbSKCaznw5kP1Y2mYpfEAJ-DE4kda-Z3CicAHD8ep0"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "ALYpb_ncDc7jTlmw6Mmq7NjuX5c-CYU83ib0a9TcSDi79rcpXVtpMoo8Vs-dBWywuYixS0tsxrQUvdO3a-V6lkP3aZKIpj24AeaYgU7305nXl64b1zlU9mOn_wrS9GU2lwD0DDSvCtITHV7ElgsMS13FpAGHdnH_YPJChtr28Tw_5kmkXfd9tPRrYQnkb5F5LVRhnlNfhFR_HBmab_JiE94xPTdnjgfPVFMsxhT8uECLXfjCZ8Dntm6xZqr29qu-4zV7vxHjdpsikwJk4aMvzyZpmYKiYGk12QbntB8yR93uRtWFGuvvyxBqf5f91IwobIwuPT_Of0l-YsOsIA9W_i7GXGFnxqGsxveXdj4s70k612C6D5kySE8",
+            "q": "remote software engineer in the last month"
+          },
+          "link": "https://www.google.com/search?newwindow=1&sca_esv=7f3e28514a708fd9&hl=en&q=remote+software+engineer+in+the+last+month&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-CYU83ib0a9TcSDi79rcpXVtpMoo8Vs-dBWywuYixS0tsxrQUvdO3a-V6lkP3aZKIpj24AeaYgU7305nXl64b1zlU9mOn_wrS9GU2lwD0DDSvCtITHV7ElgsMS13FpAGHdnH_YPJChtr28Tw_5kmkXfd9tPRrYQnkb5F5LVRhnlNfhFR_HBmab_JiE94xPTdnjgfPVFMsxhT8uECLXfjCZ8Dntm6xZqr29qu-4zV7vxHjdpsikwJk4aMvzyZpmYKiYGk12QbntB8yR93uRtWFGuvvyxBqf5f91IwobIwuPT_Of0l-YsOsIA9W_i7GXGFnxqGsxveXdj4s70k612C6D5kySE8&udm=8&sa=X&ved=2ahUKEwiok42K-IySAxWxlYkEHQj_Nc8QkbEKegQILBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=remote+software+engineer+in+the+last+month&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-CYU83ib0a9TcSDi79rcpXVtpMoo8Vs-dBWywuYixS0tsxrQUvdO3a-V6lkP3aZKIpj24AeaYgU7305nXl64b1zlU9mOn_wrS9GU2lwD0DDSvCtITHV7ElgsMS13FpAGHdnH_YPJChtr28Tw_5kmkXfd9tPRrYQnkb5F5LVRhnlNfhFR_HBmab_JiE94xPTdnjgfPVFMsxhT8uECLXfjCZ8Dntm6xZqr29qu-4zV7vxHjdpsikwJk4aMvzyZpmYKiYGk12QbntB8yR93uRtWFGuvvyxBqf5f91IwobIwuPT_Of0l-YsOsIA9W_i7GXGFnxqGsxveXdj4s70k612C6D5kySE8"
+        }
+      ]
+    }
+  ],
+  "jobs_results": [
+    {
+      "title": "Lead Full-Stack Software Engineer (Remote)",
+      "company_name": "Stryker",
+      "location": "Anywhere",
+      "via": "Stryker",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=YLdra_Hf-IKpGQIOAAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xXNwQ7BQBCA4bj2ARyc5ohoVyQunBwQQiL6AM10jW11u9PsjKg38bi4_MfvTz6DZHMivMHu6X2aK9oGcr7rCyPBNrg6EEUYX6llpQmkcOQShDDaCjjAntl5Gq0r1U5Wxoj4zImi1jaz3BoOVHJvHlzKP4VUP7fzqFQslvM-64KbDnON7-Z3qQNcOCo6msH58AX5U62zmwAAAA&shmds=v1_ATWGeeOdlMcHYTMA-ysXTvV-eqG7-g9h6tn0tlA12XlfASy6MA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=YLdra_Hf-IKpGQIOAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/69688beff8cc785de15275a8/images/43e060e6a03438c859f21f404ff68ba9a785a767596db72f8456675eb1f59ab2.png",
+      "extensions": [
+        "7 days ago",
+        "Work from home",
+        "Full-time",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "posted_at": "7 days ago",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "health_insurance": true
+      },
+      "description": "As a Lead Full-Stack Software Engineer, you will move beyond building applications to designing, leading, and guiding the engineering direction of our internal web solutions for US Customer Solutions. You will balance hands-on development with leadership, shaping architecture, driving innovation, and partnering closely with business stakeholders and data engineering to deliver scalable, reliable, and impactful solutions. You will set the bar for engineering excellence, mentor junior engineers, and take ownership of system architecture while remaining hands-on with critical builds and AI-powered feature development.\n\nWhat you will do\n\nTechnical Leadership & Architecture\n• Design and lead the architecture of modern, scalable full-stack applications.\n• Provide technical guidance, code reviews, and mentorship to junior engineers.\n• Lead integration of AI-powered features into existing and new applications.\n• Collaborate with product and business stakeholders to align engineering solutions with business objectives.\n\nSoftware Engineering – New Development\n• Lead design, development, testing, and deployment of greenfield full-stack applications.\n• Drive modernization efforts: migrate and redesign legacy apps into Flask/Next.js.\n• Partner with the data engineering team to modernize ETL pipelines.\n\nMaintenance & Reliability\n• Act as a technical escalation point for production issues.\n• Oversee and improve performance, reliability, and maintainability of core apps.\n\nWhat you need\n\nRequired:\n• Bachelor’s degree in Computer Science, Mathematics, Human-Computer Interaction, or related field.\n• Minimum 4+ years of full-stack software engineering experience.\n• Experience leading design and development of production-grade web applications (Flask, React, Next.js).\n• Experience in SQL design, performance tuning, and Azure-based services (including AI-powered features).\n• Experience mentoring and developing engineers.\n\nPreferred:\n• Master’s degree in Computer Science or related field.\n• Experience with Python, Databricks, and cloud-native architectures.\n• Experience designing and deploying AI-powered features into business applications.\n\n$ 87,600.00 - $186,700.00 salary plus bonus eligible + benefits. Individual pay is based on skills, experience, and other relevant factors.\n\nPosted On: January 7, 2026\n\nPosted Date: 01/07/2026 This role will be posted for a minimum of 3 days.",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor’s degree in Computer Science, Mathematics, Human-Computer Interaction, or related field",
+            "Minimum 4+ years of full-stack software engineering experience",
+            "Experience leading design and development of production-grade web applications (Flask, React, Next.js)",
+            "Experience in SQL design, performance tuning, and Azure-based services (including AI-powered features)",
+            "Experience mentoring and developing engineers"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "$ 87,600.00 - $186,700.00 salary plus bonus eligible + benefits",
+            "Individual pay is based on skills, experience, and other relevant factors"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As a Lead Full-Stack Software Engineer, you will move beyond building applications to designing, leading, and guiding the engineering direction of our internal web solutions for US Customer Solutions",
+            "You will balance hands-on development with leadership, shaping architecture, driving innovation, and partnering closely with business stakeholders and data engineering to deliver scalable, reliable, and impactful solutions",
+            "You will set the bar for engineering excellence, mentor junior engineers, and take ownership of system architecture while remaining hands-on with critical builds and AI-powered feature development",
+            "Design and lead the architecture of modern, scalable full-stack applications",
+            "Provide technical guidance, code reviews, and mentorship to junior engineers",
+            "Lead integration of AI-powered features into existing and new applications",
+            "Collaborate with product and business stakeholders to align engineering solutions with business objectives",
+            "Software Engineering – New Development",
+            "Lead design, development, testing, and deployment of greenfield full-stack applications",
+            "Drive modernization efforts: migrate and redesign legacy apps into Flask/Next.js",
+            "Partner with the data engineering team to modernize ETL pipelines",
+            "Maintenance & Reliability",
+            "Act as a technical escalation point for production issues",
+            "Oversee and improve performance, reliability, and maintainability of core apps"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "Stryker",
+          "link": "https://careers.stryker.com/lead-full-stack-software-engineer-remote/job/D2382D471C1D7636DAE5413B538CE439?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "GE Vernova Careers",
+          "link": "https://careers.gevernova.com/fr/full-stack-software-engineer/job/R5026350?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Workday",
+          "link": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Lead-Full-Stack-Software-Engineer--Remote-_R554874?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Upwork",
+          "link": "https://www.upwork.com/freelance-jobs/apply/Full-stack-software-engineer_~022010063860509247726/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobot",
+          "link": "https://jobot.com/details/sr-full-stack-software-engineer/c0639c8b01?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobs",
+          "link": "https://jobs.ashbyhq.com/powerline/babddf77-fd1b-4333-b8cc-424309489484?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/full-stack-engineer-san-diego-ca--d7f1f1c5-54d9-4465-b4a6-0bacaf3d2e32?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/full-stack-engineer-spyglass-software-JV_KO0,19_KE20,37.htm?jl=1009964292508&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJMZWFkIEZ1bGwtU3RhY2sgU29mdHdhcmUgRW5naW5lZXIgKFJlbW90ZSkiLCJjb21wYW55X25hbWUiOiJTdHJ5a2VyIiwiYWRkcmVzc19jaXR5IjoiUG9ydGFnZSwgTUkiLCJodGlkb2NpZCI6IllMZHJhX0hmLUlLcEdRSU9BQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+    },
+    {
+      "title": "Software Engineer I- AI (Remote - United States)",
+      "company_name": "Nextech Systems",
+      "location": "Anywhere",
+      "via": "Startup Jobs",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=0GUJKWh9hIfvDiZvAAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xWNMQrCQBBFsc0RxGJKFZMVwSZWFhoiYmG0Dps4blayO0tmwHgfD-ra_OLxeD_5TpKioqe89YBw8MZ6xAHKFPYlzK_oSBBSuHsr-IBKtCAvIjhRA4x6aDsgDwWR6XG660QC50ox95nhKNs2a8kp8tjQqF7U8H9q7uJb6GOs3mzXYxa8Wc4uOArGXvVhQcdgPdy0C3oFx_MPgAq7xacAAAA&shmds=v1_ATWGeeNhNlaASYafh-0nRK1dfZLbxZQzl7JRo4c9eCwPyqSnuQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=0GUJKWh9hIfvDiZvAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/69688beff8cc785de15275a8/images/43e060e6a03438c8a7d4a9788cb2be5d625342836121bbc93187cd89197ca1af.png",
+      "extensions": [
+        "2 days ago",
+        "Work from home",
+        "Full-time",
+        "Health insurance",
+        "Paid time off",
+        "Dental insurance"
+      ],
+      "detected_extensions": {
+        "posted_at": "2 days ago",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "health_insurance": true,
+        "paid_time_off": true,
+        "dental_coverage": true
+      },
+      "description": "Why join Nextech?\n\nWe are a leader in specialty healthcare technology solutions.\n\nWe’re committed to hiring and retaining talent, which is why we invest in our employees through competitive pay, a generous bonus structure, great healthcare, a comprehensive wellness program, and many other benefits.\n\nIf you are a software engineer, finance or accounting professional, customer support specialist, or a business development expert with a passion for healthcare technology (just to name a few), we want to hear from you.\n\nWe are an equal opportunity employer with a commitment to diversity. All individuals, regardless of personal characteristics are encouraged to apply. If you are a candidate in need of assistance or an accommodation in the application process, please contact talent@nextech.com.\n\nJob Summary:\n\nThe Software Engineer I (AI) role is an entry-level to early-career position focused on supporting Nextech’s AI engineering initiatives. This role is well suited for a full-stack engineer with strong Python skills who is eager to work on AI-enabled systems, data pipelines, and application features that integrate machine learning and large language model (LLM) capabilities into production healthcare software.\n\nEngineers in this role contribute to the development, testing, and maintenance of AI-backed services and user-facing applications under the guidance of senior engineers and technical leads. The Software Engineer I (AI) is expected to work independently on well-defined tasks while learning Nextech’s AI platform, products, and development practices.\n\nAll activities must be in compliance with Equal Employment Opportunity laws, HIPAA, ERISA, and other regulations, as appropriate.\n\nEssential Functions\n• Implementing software features and enhancements that support AI-powered workflows and services\n• Developing and maintaining backend services and APIs using Python\n• Supporting full-stack development efforts, including frontend features (Angular or similar frameworks)\n• Assisting with integration of AI/ML services, including large language model (LLM)–based capabilities\n• Writing clean, maintainable, and well-documented code\n• Translating well-defined requirements into functional software with guidance from senior engineers\n• Participating in code reviews and incorporating feedback to improve code quality\n• Assisting with testing, debugging, and issue resolution across AI and non-AI components\n• Collaborating with Product Management, QA, and other engineering teams to deliver high-quality solutions\n• Learning and applying best practices for AI development, including iterative experimentation and evaluation\n\nMinimum Requirements\n• Bachelor’s degree in Computer Science, Engineering, or a related field (or equivalent practical experience)\n• Strong foundational knowledge of software development principles\n• Familiarity with python and/or full-stack development concepts (frontend and backend)\n• Experience working with REST APIs and basic data persistence concepts\n• Strong analytical and problem-solving skills\n• Ability to work effectively within a team and communicate clearly\n• Self-motivated, curious, and eager to learn new technologies\n• Strong attention to detail\n\nPreferred Qualification\n• Experience with JavaScript/TypeScript and a modern frontend framework (Angular preferred)\n• Familiarity with SQL and relational databases\n• Experience using Git or other source control systems\n• Exposure to AI or machine learning concepts, including LLMs and prompt engineering\n• Interest in AI-first development practices such as fast experimentation and iterative improvement\n• Experience with cloud platforms (Azure preferred)\n• Familiarity with healthcare software or regulated environments is a plus\n\nWorking Environment / Physical Demands\n• 100% Remote\n• Activities require a significant amount of work in front of a computer monitor.\n\nTotal Rewards\n\nGenerous annual bonus opportunity\n401(k) with Employer Match\nFlexible Time Off: take time off when you need it without worrying about available hours\n11 paid holidays\nVolunteer Time Off\nInsurance: Choice of Medical, Dental, and Vision plans\nHealth Savings Account with employer match\nFlexible Spending Account\n100% Company-Paid Parental leave (After 6 months with the company)\n100% Company-Paid Life Insurance and Short/Long Term Disability Insurance\nNextech Luminary Peer Recognition Program\nWellness Program including discounts on medical premiums\nEmployee Assistance Program with free counseling sessions available\nCorporate Discounts on Retail, Travel, and Entertainment\nPet Insurance options",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor’s degree in Computer Science, Engineering, or a related field (or equivalent practical experience)",
+            "Strong foundational knowledge of software development principles",
+            "Familiarity with python and/or full-stack development concepts (frontend and backend)",
+            "Experience working with REST APIs and basic data persistence concepts",
+            "Strong analytical and problem-solving skills",
+            "Ability to work effectively within a team and communicate clearly",
+            "Self-motivated, curious, and eager to learn new technologies",
+            "Strong attention to detail",
+            "Working Environment / Physical Demands"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Total Rewards",
+            "Generous annual bonus opportunity",
+            "401(k) with Employer Match",
+            "Flexible Time Off: take time off when you need it without worrying about available hours",
+            "11 paid holidays",
+            "Volunteer Time Off",
+            "Insurance: Choice of Medical, Dental, and Vision plans",
+            "Health Savings Account with employer match",
+            "Flexible Spending Account",
+            "100% Company-Paid Parental leave (After 6 months with the company)",
+            "100% Company-Paid Life Insurance and Short/Long Term Disability Insurance",
+            "Nextech Luminary Peer Recognition Program",
+            "Wellness Program including discounts on medical premiums",
+            "Employee Assistance Program with free counseling sessions available",
+            "Corporate Discounts on Retail, Travel, and Entertainment",
+            "Pet Insurance options"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role is well suited for a full-stack engineer with strong Python skills who is eager to work on AI-enabled systems, data pipelines, and application features that integrate machine learning and large language model (LLM) capabilities into production healthcare software",
+            "Engineers in this role contribute to the development, testing, and maintenance of AI-backed services and user-facing applications under the guidance of senior engineers and technical leads",
+            "The Software Engineer I (AI) is expected to work independently on well-defined tasks while learning Nextech’s AI platform, products, and development practices",
+            "All activities must be in compliance with Equal Employment Opportunity laws, HIPAA, ERISA, and other regulations, as appropriate",
+            "Implementing software features and enhancements that support AI-powered workflows and services",
+            "Developing and maintaining backend services and APIs using Python",
+            "Supporting full-stack development efforts, including frontend features (Angular or similar frameworks)",
+            "Assisting with integration of AI/ML services, including large language model (LLM)–based capabilities",
+            "Writing clean, maintainable, and well-documented code",
+            "Translating well-defined requirements into functional software with guidance from senior engineers",
+            "Participating in code reviews and incorporating feedback to improve code quality",
+            "Assisting with testing, debugging, and issue resolution across AI and non-AI components",
+            "Collaborating with Product Management, QA, and other engineering teams to deliver high-quality solutions",
+            "Learning and applying best practices for AI development, including iterative experimentation and evaluation",
+            "100% Remote",
+            "Activities require a significant amount of work in front of a computer monitor"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "Startup Jobs",
+          "link": "https://startup.jobs/software-engineer-i-ai-remote-united-states-nextech-systems-7634497?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/ai-software-engineer-remote-us_bf409f96-02da-4bcc-adac-89b513d508c8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In",
+          "link": "https://builtin.com/job/senior-ai-software-engineer-remote-us/7504089?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Remoteorbit.is-Best.net",
+          "link": "https://remoteorbit.is-best.net/job/senior-software-engineer-ai-native-remote-us?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobright",
+          "link": "https://jobright.ai/jobs/info/693516b5f131d96e4846cd55?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Remote AI Jobs",
+          "link": "https://remote-ai-jobs.com/jobs/remote-software-engineer-ai-training-remote-work-us-b3fdz4/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Talent.com",
+          "link": "https://www.talent.com/view?id=dc63edf10d25&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Step Up Jobs",
+          "link": "https://stepup-jobs.com/jobs/1888930653/ai-software-engineer-remote-us/jobgether?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBJLSBBSSAoUmVtb3RlIC0gVW5pdGVkIFN0YXRlcykiLCJjb21wYW55X25hbWUiOiJOZXh0ZWNoIFN5c3RlbXMiLCJhZGRyZXNzX2NpdHkiOiJUYW1wYSwgRkwiLCJodGlkb2NpZCI6IjBHVUpLV2g5aElmdkRpWnZBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+    },
+    {
+      "title": "Software Engineer (US Remote)",
+      "company_name": "Jackrabbit Technologies",
+      "location": "Anywhere",
+      "via": "Indeed",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=9RwaQHpUWcPJMZ9lAAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xXMOw7CMAwAULH2CEwe-TYIwQIjQqAODBTmKolMEkjjKjbQ43BUYHnjKz6DYlXTTd46I-yTCwkxw-hawxlbEhzDHCoywKiz9UAJDkQu4nDrRTreKMUcS8eiJdjSUqsooaFe3cnwn4b9r-6iFmyW60VfdslNppW2j6yNCQIXtD5RJBeQISQ4PpNg5leIEWdw2n0B_EoFfqMAAAA&shmds=v1_ATWGeeNU6DSlVD6Y4lQEx7Y_m1CDKSzUpN3_zfSI9nHivYnOCg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=9RwaQHpUWcPJMZ9lAAAAAA%3D%3D",
+      "extensions": [
+        "5 days ago",
+        "100K a year",
+        "Work from home",
+        "Full-time",
+        "Dental insurance",
+        "Paid time off",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "posted_at": "5 days ago",
+        "salary": "100K a year",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "dental_coverage": true,
+        "paid_time_off": true,
+        "health_insurance": true
+      },
+      "description": "Welcome to Jackrabbit Technologies.\n\nJackrabbit Technologies is the leading provider of software and services that help youth activity centers - gymnastics, dance, cheer, swim, music, childcare, and others - grow and operate efficiently. We are an entrepreneurial-minded, rapidly growing SaaS company that has been recognized as one of the Best Places to Work in North Carolina and one of North Carolina’s Top Industry-Driven Technology Companies. Jackrabbit Technologies’ SaaS solution powers over 7000 clients in 35 countries around the world.\n\nOur culture empowers YOU.\n\nWe hire people passionate about what they do, provide them with the tools to succeed, and then get out of their way! Living our vision, mission, and values, our people are what make Jackrabbit Technologies an awesome place to work. And that “awesome place” is virtual-all of our employees enjoy the privilege of working remotely. We always have and always will. We are interested in speaking to qualified candidates who are US Citizens or Green Card holders with no special circumstances living in the US. We are not able to sponsor visas.\n\nWhat you'll do.\n\nAt Jackrabbit Technologies, we’re building powerful SaaS solutions that help youth activity centers run smarter, grow faster, and focus on what matters. As a Software Engineer, you’ll design, build and optimize mission-critical applications in a collaborative, agile environment.\n• Develop scalable, high-quality software using C#, .NET Core, and modern front-end frameworks. Ensure code reliability through robust unit testing and effectively integrate new features into existing legacy systems. Model excellence and inspire peers through your commitment to craftsmanship and clean code.\n• Work across the stack, from Web APIs to front-end interfaces, and contribute to system performance, usability, and maintainability.\n• Translate requirements into clear, actionable solutions and contribute to solving technical challenges with the team.\n• Contribute to product development through agile ceremonies, code reviews, and cross-functional collaboration to ensure high-quality delivery.\n• Actively seek feedback, identify growth opportunities, and continuously improve your skills—setting a visible example of humility and self-awareness that motivates others to do the same.\n\nWhat you're about.\n\nCore Technical Skills\n• Bachelor’s degree in a STEM field or equivalent practical experience\n• 3–5 years of experience developing web applications\n• Proficiency in .NET Core, ASP.NET MVC, C#, and building Web APIs\n• Solid front-end skills with HTML, CSS, and JavaScript frameworks (React, Blazor, TypeScript); ability to maintain legacy jQuery when needed\n• Experience with SQL Server (queries, stored procedures)\n• Familiar with leveraging AI tools to accelerate development while applying sound engineering judgment to ensure code quality, maintainability, and ethical use of AI-assisted solutions.\n• Comfortable working in Agile Scrum environments using Jira and Git\n• Familiarity with Tailwind CSS and Cloud Development experience a plus\n• Ability to travel up to 10% (Charlotte-based)/25% (non Charlotte-based) for team collaboration and customer engagement.\n\nCollaboration and Growth\n• Strong problem-solver who enjoys tackling technical challenges and delivering reliable solutions.\n• Curious and forward-thinking, able to translate customer feedback into practical, high-quality applications.\n• Passionate about knowledge sharing and collaboration, building trust and strong partnerships across teams. Promotes psychological safety and a culture of open dialogue and idea exchange.\n• Clear communicator, able to explain technical concepts to both technical and non-technical stakeholders.\n• Thrives in fast-paced environments—prioritizing effectively and driving results without sacrificing quality.\n\nCore Competencies:\n• Resourcefulness - Secures and deploys resources effectively and efficiently.\n• Action Oriented - Takes on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm.\n• Decision Quality - Makes good and timely decisions that keep the organization moving forward.\n• Customer Focus - Builds strong customer relationships and delivers customer-centric solutions.\n• Collaborates - Builds partnerships and works collaboratively with others to meet shared objectives.\n• Demonstrates Self-Awareness Using a combination of feedback and reflection to gain productive insight into personal strengths and weaknesses.\n\nWhat you will love about us.\n• Our Culture!\n• We work remotely. We always have - we always will!\n• Our Health and Wellness Benefits. Medical, Dental, Vision, Flexible Spending, HSA and Dependent Care Accounts.\n• We help you with the unexpected. Company-Paid Disability and Life Insurance. Opportunity to elect Critical Illness and Accident Insurance. Plus confidential access to legal and life counseling and mental health support available 24/7.\n• Your future looks bright at Jackrabbit. 401(k) with a generous company match, access to financial planning.\n• We pay you to play, rest, recharge and balance your life. Paid Time Off, Paid Parental, Paid Caregiver and Sabbatical leaves.\n• You will grow your skills with us. Annual allowance for professional development.\n• We give back. Paid Time to volunteer in your community.\n\nJackrabbit is committed to providing a workplace free from discrimination or harassment. We expect every member of the Jackrabbit team to do their part to cultivate and maintain an environment where everyone has the opportunity to feel included and is afforded the respect and dignity they deserve.\n\nDecisions related to hiring, compensating, training, evaluating performance, or terminating are made fairly, and we provide equal employment opportunities to all qualified candidates and employees. We examine our unconscious biases and take responsibility for always striving to create an inclusive environment that makes every employee and candidate feel welcome.",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor’s degree in a STEM field or equivalent practical experience",
+            "3–5 years of experience developing web applications",
+            "Proficiency in .NET Core, ASP",
+            "NET MVC, C#, and building Web APIs",
+            "Solid front-end skills with HTML, CSS, and JavaScript frameworks (React, Blazor, TypeScript); ability to maintain legacy jQuery when needed",
+            "Experience with SQL Server (queries, stored procedures)",
+            "Familiar with leveraging AI tools to accelerate development while applying sound engineering judgment to ensure code quality, maintainability, and ethical use of AI-assisted solutions",
+            "Comfortable working in Agile Scrum environments using Jira and Git",
+            "Ability to travel up to 10% (Charlotte-based)/25% (non Charlotte-based) for team collaboration and customer engagement",
+            "Strong problem-solver who enjoys tackling technical challenges and delivering reliable solutions",
+            "Curious and forward-thinking, able to translate customer feedback into practical, high-quality applications",
+            "Passionate about knowledge sharing and collaboration, building trust and strong partnerships across teams",
+            "Promotes psychological safety and a culture of open dialogue and idea exchange",
+            "Resourcefulness - Secures and deploys resources effectively and efficiently",
+            "Action Oriented - Takes on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm",
+            "Decision Quality - Makes good and timely decisions that keep the organization moving forward",
+            "Demonstrates Self-Awareness Using a combination of feedback and reflection to gain productive insight into personal strengths and weaknesses"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Our Culture!",
+            "We work remotely",
+            "Our Health and Wellness Benefits",
+            "Medical, Dental, Vision, Flexible Spending, HSA and Dependent Care Accounts",
+            "We help you with the unexpected",
+            "Company-Paid Disability and Life Insurance",
+            "Opportunity to elect Critical Illness and Accident Insurance",
+            "Plus confidential access to legal and life counseling and mental health support available 24/7",
+            "Your future looks bright at Jackrabbit",
+            "401(k) with a generous company match, access to financial planning",
+            "We pay you to play, rest, recharge and balance your life",
+            "Paid Time Off, Paid Parental, Paid Caregiver and Sabbatical leaves",
+            "You will grow your skills with us",
+            "Annual allowance for professional development",
+            "We give back",
+            "Paid Time to volunteer in your community"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As a Software Engineer, you’ll design, build and optimize mission-critical applications in a collaborative, agile environment",
+            "Develop scalable, high-quality software using C#, .NET Core, and modern front-end frameworks",
+            "Ensure code reliability through robust unit testing and effectively integrate new features into existing legacy systems",
+            "Model excellence and inspire peers through your commitment to craftsmanship and clean code",
+            "Work across the stack, from Web APIs to front-end interfaces, and contribute to system performance, usability, and maintainability",
+            "Translate requirements into clear, actionable solutions and contribute to solving technical challenges with the team",
+            "Contribute to product development through agile ceremonies, code reviews, and cross-functional collaboration to ensure high-quality delivery",
+            "Actively seek feedback, identify growth opportunities, and continuously improve your skills—setting a visible example of humility and self-awareness that motivates others to do the same",
+            "Clear communicator, able to explain technical concepts to both technical and non-technical stakeholders",
+            "Thrives in fast-paced environments—prioritizing effectively and driving results without sacrificing quality",
+            "Customer Focus - Builds strong customer relationships and delivers customer-centric solutions",
+            "Collaborates - Builds partnerships and works collaboratively with others to meet shared objectives"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=841f337dc63f6e57&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In San Francisco",
+          "link": "https://www.builtinsf.com/job/software-engineer-enterprise-product-observability-remote/7435678?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In",
+          "link": "https://builtin.com/job/software-engineer-enterprise-product-observability-remote/7222186?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/software-engineer-us-remote-at-jackrabbit-technologies-4331546432?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/software-engineer-us-remote-jackrabbit-technologies-JV_IC1138654_KO0,27_KE28,51.htm?jl=1009993664923&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/software-engineer_7ea1a3ac5bf152a4f69ce3a65c91afc1024f4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Startup Jobs",
+          "link": "https://startup.jobs/software-engineer-us-remote-jackrabbit-technologies-7629581?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Adzuna",
+          "link": "https://www.adzuna.com/details/5580654421?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoVVMgUmVtb3RlKSIsImNvbXBhbnlfbmFtZSI6IkphY2tyYWJiaXQgVGVjaG5vbG9naWVzIiwiYWRkcmVzc19jaXR5IjoiSHVudGVyc3ZpbGxlLCBOQyIsImh0aWRvY2lkIjoiOVJ3YVFIcFVXY1BKTVo5bEFBQUFBQT09IiwiaGwiOiJlbiJ9"
+    },
+    {
+      "title": "Sr. Software Engineer- REMOTE Opportunity",
+      "company_name": "HERS Advisors",
+      "location": "Anywhere",
+      "via": "Ladders",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=qrGLUqchMZ_RZnubAAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xXNsQrCMBAAUFwL_oDTzUITEVx00SEoghRa95LWM4nUXMidWn_Cb1aXt77iMym2TVbQ0FVeNiOY6EJEzCXU5lSdDVQpUZZHDPKGEo7UAaPNvQeKsCdyA842XiTxWmvmQTkWK6FXPd01Rexo1Dfq-E_L_lekwQq2y9ViVCm6-fRg6gZ2l2dgyvwFPpKz15EAAAA&shmds=v1_ATWGeePAiIRvi_yWkQKi0MrM9IipXyiyZ3Yo5CQSPPcfa72Bcg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=qrGLUqchMZ_RZnubAAAAAA%3D%3D",
+      "extensions": [
+        "140K a year",
+        "Work from home",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "salary": "140K a year",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "qualifications": "No degree mentioned"
+      },
+      "description": "HERS Advisors is seeking a talented software engineer to join one of the healthcare industries leading companies. The Senior Engineer will have a strong understanding of Object Oriented and Service Oriented Architectures who can help develop state-of-the-art solutions to enable better clinical outcomes. We are looking for an individual who can think nimbly and is passionate about technology and can think outside the box. This individual will be charged with helping to steer the team to holistically and tactically to deliver cutting-edge technologies. They will have an exceptional understanding of functional programming as well as modern software engineering design paradigms. If interested, please send an updated resume along with a time to connect.\n\nESSENTIAL JOB FUNCTIONS:\n• Work in an Agile development environment; actively participate in and contribute to all Scrum ceremonies.\n• Design, develop and deliver software solutions per requirements and committed schedules. Work closely with Product Owner in evaluating current systems and making decisions on future development.\n\nEXPERIENCE:\n• Minimum of 5 years of software development experience with modern programming languages and concepts.\n• Expertise in two or more general purpose programming languages, with ability to learn more.\n• Experience using provided tools (Docker, Cloud Foundry, AWS, GCP, GitLab, New Relic, Sentry).\n\nTECHNICAL EXPERIENCE:\n• Experience with PHP, JavaScript, .NET, React, Terraform, SQL, OpenAPI, JSON, XML.\n\nCompensation: $140,000.00",
+      "apply_options": [
+        {
+          "title": "Ladders",
+          "link": "https://www.theladders.com/job/sr-software-engineer-remote-opportunity-hers-advisors-virtual-travel_83434734?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://uk.jobrapido.com/jobpreview/8142234710815277056?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTci4gU29mdHdhcmUgRW5naW5lZXItIFJFTU9URSBPcHBvcnR1bml0eSIsImNvbXBhbnlfbmFtZSI6IkhFUlMgQWR2aXNvcnMiLCJodGlkb2NpZCI6InFyR0xVcWNoTVpfUlpudWJBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+    },
+    {
+      "title": "Staff Software Engineer (Remote)",
+      "company_name": "TENEX.AI",
+      "location": "Anywhere",
+      "via": "Jobs",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=cPHDjrytnI-DoBl0AAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xXOsQrCMBCAYVz7BjrdqIKJCCLo5FBEBwer4FbSek0j6V3JHdjX8I2tyz9-_Nl3ku0KdU0DBTf6cQkhJx8IMcH8hh0rLmAFF65A0KW6BSY4MfuIs0Or2sveWpFovKjTUJuaO8uEFQ_2zZX8U0o7un10iuVmux5MT345vefX_GmOZwgEDwqKLxhHFOUHj7Pf3ZQAAAA&shmds=v1_ATWGeePV6MGZFajBmhdt-ZkR04ebJ1kJ5SlLDeIKVgBHYZ_ltQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=cPHDjrytnI-DoBl0AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/69688beff8cc785de15275a8/images/43e060e6a03438c8bd59d7b002822e158cc7188812142b25d25764b41c73b512.png",
+      "extensions": [
+        "Work from home",
+        "Full-time",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "health_insurance": true
+      },
+      "description": "Company Overview\n\nTENEX is an AI-native, automation-first, built-for-scale Managed Detection and Response (MDR) provider. We are a force multiplier for defenders, helping organizations enhance their cybersecurity posture through advanced threat detection, rapid response, and continuous protection. Our team is composed of industry experts with deep experience in cybersecurity, automation, and AI-driven solutions. We’re a fast growing startup backed by industry experts and top tier investor Andreessen Horowitz. As an early employee, you’ll play a meaningful role in defining and building our culture. Get in on the ground floor. We’re a small but well-funded team that just raised a substantial round – joining now comes with limited risk and unlimited upside. We are rapidly growing and seeking top talent to join our mission of revolutionizing the cybersecurity landscape.\n\nWe are seeking an experienced Staff Software Engineer to join our core engineering team. In this role, you will drive the technical vision and execution of our platform, ensuring that it is reliable, scalable, and secure as we grow. You’ll lead architecture design, guide complex technical decisions, and mentor engineers while remaining deeply hands-on.\n\nAs one of the most senior engineers on the team, you’ll balance strategic impact with technical depth—setting the standard for engineering excellence while directly contributing to our codebase. We value proactive builders who thrive in ambiguity, enjoy tackling hard technical problems, and can influence both product and engineering direction.\n\nCulture is one of the most important things at TENEX.AI—check out our culture deck at culture.tenex.ai to experience how we champion it, valuing the unmatched collaboration and community of in-person work while offering flexibility for the best of the best.\n\nThis role is for the extraordinary—the pinnacle 10x of 10x legends in any role— where we make exceptions to our in-person hiring to champion full remote freedom, empowering you to conquer without boundaries while still inviting you to join our in-person energy from time to time.\n\nTo be direct up front - If you’re looking at this position, we strongly recommend you consider accepting one of our lucrative relocation packages to our epic hubs in Sarasota, Florida (outside Tampa), or Overland Park in the Kansas City metro—where trailblazers redefine cybersecurity with 10x impact!\n\nIn Florida, you can break free from overly inflated cost of living sky-high taxes (like those of you trapped in California or New York) via our incredibly aggressive relocation packages, enjoying zero state income tax, boundless personal freedom, a pro-business surge, endless sunshine, and a pro-family haven in the master-planned Lakewood Ranch with elite amenities and vibes. In KC, leverage those same powerhouse relocation perks for lower taxes, authentic Midwest values of integrity and community, and a supportive, family-oriented ecosystem for enduring wins. See those respective listings with more details on our careers page.\n\nFor candidates who embody the rare \"10x of 10x\" talent, we offer the flexibility of fully remote work. If you are an exceptional, unrivaled force in this role and prefer not to relocate at this time, we encourage you to apply for this remote-first position. Please be aware that the competition for these remote roles is exceptionally fierce, and the standards for selection are significantly higher.\n\nJob Responsibilities:\n• Own and drive architectural decisions for core systems and services, balancing speed, scalability, and security.\n• Lead design and development of distributed backend systems, APIs, and integrations.\n• Provide technical leadership across the stack, from backend services to frontend applications.\n• Mentor, coach, and up-level engineers through code reviews, design discussions, and pairing.\n• Collaborate with product, design, and leadership to shape technical roadmaps.\n• Identify and address cross-cutting concerns such as observability, reliability, and performance.\n• Champion engineering best practices, ensuring code quality, testing, and maintainability.\n• Stay ahead of industry trends in AI, automation, and security, bringing innovative approaches into our platform.\n\nQualifications:\n• 7+ years of professional software engineering experience, including leadership in designing and scaling complex systems.\n• Strong foundation in software engineering principles and distributed systems.\n• Expertise in at least one backend language such as Go, Python, or equivalent.\n• Experience with modern frontend frameworks (React, Next.js, TypeScript, or similar).\n• Proficiency with relational databases such as PostgreSQL or MySQL.\n• Experience with cloud platforms (GCP, AWS, or equivalent).\n• Demonstrated ability to lead technical direction and mentor other engineers.\n• Excellent communication, collaboration, and problem-solving skills.\n\nDesired (While experience in all is not required, any of the following would be a plus):\n• Experience with containerization technologies like Docker and orchestration tools like Kubernetes.\n• Experience with CI/CD pipelines.\n• Exposure to AI/ML concepts and technologies, such as:\n• Prompt Engineering\n• Retrieval-Augmented Generation (RAG)\n• Supervised Fine-Tuning (SFT)\n• Vector Databases\n• Experience working in an early-stage startup environment.\n\nEducation & Certifications\n• Bachelor’s degree in Computer Science, Engineering, or a related field (or equivalent experience).\n• GCP certifications such as Professional Cloud Developer or Professional Data Engineer are a plus.\n\nWhy Join Us?\n• Opportunity to work with cutting-edge AI-driven cybersecurity technologies and Google SecOps solutions.\n• Collaborate with a talented and innovative team focused on continuously improving security operations.\n• Competitive salary and benefits package.\n• A culture of growth and development, with opportunities to expand your knowledge in AI, cybersecurity, and emerging technologies.\n\nIf you're passionate about combining cybersecurity expertise with artificial intelligence and have experience with Google SecOps and Chronicle, we encourage you to apply!",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "7+ years of professional software engineering experience, including leadership in designing and scaling complex systems",
+            "Strong foundation in software engineering principles and distributed systems",
+            "Expertise in at least one backend language such as Go, Python, or equivalent",
+            "Experience with modern frontend frameworks (React, Next.js, TypeScript, or similar)",
+            "Proficiency with relational databases such as PostgreSQL or MySQL",
+            "Experience with cloud platforms (GCP, AWS, or equivalent)",
+            "Demonstrated ability to lead technical direction and mentor other engineers",
+            "Excellent communication, collaboration, and problem-solving skills",
+            "Bachelor’s degree in Computer Science, Engineering, or a related field (or equivalent experience)"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "In Florida, you can break free from overly inflated cost of living sky-high taxes (like those of you trapped in California or New York) via our incredibly aggressive relocation packages, enjoying zero state income tax, boundless personal freedom, a pro-business surge, endless sunshine, and a pro-family haven in the master-planned Lakewood Ranch with elite amenities and vibes",
+            "Opportunity to work with cutting-edge AI-driven cybersecurity technologies and Google SecOps solutions",
+            "Competitive salary and benefits package",
+            "A culture of growth and development, with opportunities to expand your knowledge in AI, cybersecurity, and emerging technologies"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "In this role, you will drive the technical vision and execution of our platform, ensuring that it is reliable, scalable, and secure as we grow",
+            "You’ll lead architecture design, guide complex technical decisions, and mentor engineers while remaining deeply hands-on",
+            "As one of the most senior engineers on the team, you’ll balance strategic impact with technical depth—setting the standard for engineering excellence while directly contributing to our codebase",
+            "Own and drive architectural decisions for core systems and services, balancing speed, scalability, and security",
+            "Lead design and development of distributed backend systems, APIs, and integrations",
+            "Provide technical leadership across the stack, from backend services to frontend applications",
+            "Mentor, coach, and up-level engineers through code reviews, design discussions, and pairing",
+            "Collaborate with product, design, and leadership to shape technical roadmaps",
+            "Identify and address cross-cutting concerns such as observability, reliability, and performance",
+            "Champion engineering best practices, ensuring code quality, testing, and maintainability",
+            "Stay ahead of industry trends in AI, automation, and security, bringing innovative approaches into our platform"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "Jobs",
+          "link": "https://jobs.ashbyhq.com/tenex/5b3051ee-9585-4c7e-b515-c65679a0979f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Wellfound",
+          "link": "https://wellfound.com/jobs/3688370-staff-software-engineer-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Femtech Insider Job Board",
+          "link": "https://jobs.femtechinsider.com/companies/pomelo-care/jobs/62176101-staff-software-engineer-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/staff-software-engineer-remote-tenex-ai-JV_KO0,30_KE31,39.htm?jl=1009917903615&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobgether",
+          "link": "https://jobgether.com/offer/6919e00f11d3dca7d9d1f7bf-staff-software-engineer-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/staff-software-engineer_7ea1adaaf8e61be5e181eab37e7cfa9ef807f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In San Francisco",
+          "link": "https://www.builtinsf.com/job/staff-software-engineer-remote/7714258?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/staff-software-engineer-remote-burlingame-ca--44ee1e3d-5ec9-4d57-9ba3-9819d79deea3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciAoUmVtb3RlKSIsImNvbXBhbnlfbmFtZSI6IlRFTkVYLkFJIiwiYWRkcmVzc19jaXR5IjoiVW5pdGVkIFN0YXRlcyIsImh0aWRvY2lkIjoiY1BIRGpyeXRuSS1Eb0JsMEFBQUFBQT09IiwiaGwiOiJlbiJ9"
+    },
+    {
+      "title": "Software Engineer (Remote Engineer)",
+      "company_name": "VetsEZ",
+      "location": "Anywhere",
+      "via": "VetsEZ",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=VEmwj9qmd6GlRdYZAAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_0XNsQrCMBCAYVw7OzndqKKJCC51ciiCo4qIS0nLmUTau5A7sW_hK6uTyz98y1-8R0V54ru-XEaoyEdCzDA9Ys_6hxks4cANCLrcBmCCPbPvcLINqklKa0U640Wdxta03FsmbHiwD27kl1rCd5A6p1ivN6vBJPLz8QVVqhtEgt1TNNICztcPU5LGAZIAAAA&shmds=v1_ATWGeeO8ZdSJg80M-msGBu6CEz9cbjeLz2EIDlUxanEnqflO8g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=VEmwj9qmd6GlRdYZAAAAAA%3D%3D",
+      "extensions": [
+        "8 days ago",
+        "Work from home",
+        "Full-time",
+        "Health insurance",
+        "Paid time off",
+        "Dental insurance"
+      ],
+      "detected_extensions": {
+        "posted_at": "8 days ago",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "health_insurance": true,
+        "paid_time_off": true,
+        "dental_coverage": true
+      },
+      "description": "At EZ Labs, we are committed to transforming healthcare delivery through technology, innovation, and compassion. We partner with care teams, payers, and providers to improve how patients experience care, how claims are processed, and how care coordination is managed across the continuum. By integrating advanced analytics, intelligent automation, and secure platforms, we enable smarter decisions, seamless patient engagement, and more efficient claims management. Together, we are shaping a healthcare ecosystem that delivers better outcomes for patients, providers, and payers.\n\nPosition Overview\n\nWe are seeking a hands-on and technically strong Software Engineer to guide the design and delivery of intelligent solutions across our unified care coordination, claims management, and patient engagement platforms. This role combines software engineering expertise in AI/ML system design, full-stack development, and a practical focus on data-driven insights that improve patient management and operational efficiency.\n\nAs a team player, you will support technical implementation efforts, and collaborate with clinical, operations, and business teams to operationalize AI solutions that directly enhance patient care and claim’s accuracy.\n\nKey Responsibilities:\n• Implement AI-enabled backend services within a secure, cloud-native microservices environment.\n• Design and scale Intelligent Document Processing (IDP) pipelines to extract and validate data from claims, authorizations, and medical documentation.\n• Integrate LLMs and intelligent agents into clinical and claims workflows to streamline patient and provider interactions.\n• Build AI Agents that surface actionable insights from EHR, claims, and unstructured clinical data.\n• Translate ML outputs into decision-ready intelligence for providers, payers, and operations leaders.\n• Support cross-functional architecture sessions, code reviews, and design workshops.\n• Engineer modern AI/ML development practices, scalable system design, and secure operations.\n• Work with clinicians, operations staff, and compliance leaders to ensure solutions align with healthcare standards and patient impact goals.\n• Drive continuous improvement by identifying opportunities to enhance system performance, scalability, and maintainability.\n• Design scalable APIs and data models that support secure, interoperable data exchange across care coordination and claims systems.\n• Translate business and clinical requirements into technical designs that are intuitive for end-users and sustainable for engineering teams.\n• Create design documentation and technical blueprints that guide implementation and ensure alignment with enterprise healthcare standards.\n\nRequired Qualifications:\n• Bachelor’s degree in computer science, Software Engineering, or a related technical field.\n• Experience in using and designing with Agent-2-Agent (A2A) and Model Context Protocols (MCP).\n• Strong communications skills with ability to drive product vision and mission to completion.\n• Strong coding ability in Python, TypeScript, and Node.js, with a solid understanding of cloud-native microservices and event-driven architectures. Strong understanding and experience in using AWS cloud native services and tools.\n• Hands-on experience applying LLMs, NLP, or Intelligent Document Processing (IDP) in production environments, using platforms such as OpenAI, Bedrock, Cohere, or Claude.\n• Knowledge of healthcare interoperability standards (FHIR, HL7, X12) and data governance in regulated environments; prior experience with claims adjudication, care coordination, or patient engagement systems is highly desirable.\n• Familiarity with AI-driven developer tools such as GitHub Copilot and Cursor.\n• Proven ability to collaborate effectively with both technical teams and healthcare stakeholders to deliver impactful solutions.\n• Ability to obtain a government clearance\n\nBenefits:\n• Medical/Dental/Vision\n• 401k with Employer Match \n• PTO + Federal Holidays  \n• Corporate Laptop \n• Training opportunities  \n• Remote Opportunity\n\nNote: Selected candidates will be required to complete fingerprinting at a government facility and undergo a background check as part of the hiring process.\n\nQualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability, or protected veteran status.\n\nSorry, we are unable to offer sponsorship at this time.",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor’s degree in computer science, Software Engineering, or a related technical field",
+            "Experience in using and designing with Agent-2-Agent (A2A) and Model Context Protocols (MCP)",
+            "Strong communications skills with ability to drive product vision and mission to completion",
+            "Strong coding ability in Python, TypeScript, and Node.js, with a solid understanding of cloud-native microservices and event-driven architectures",
+            "Strong understanding and experience in using AWS cloud native services and tools",
+            "Hands-on experience applying LLMs, NLP, or Intelligent Document Processing (IDP) in production environments, using platforms such as OpenAI, Bedrock, Cohere, or Claude",
+            "Familiarity with AI-driven developer tools such as GitHub Copilot and Cursor",
+            "Proven ability to collaborate effectively with both technical teams and healthcare stakeholders to deliver impactful solutions",
+            "Ability to obtain a government clearance"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Medical/Dental/Vision",
+            "401k with Employer Match ",
+            "PTO + Federal Holidays  ",
+            "Corporate Laptop ",
+            "Training opportunities  ",
+            "Remote Opportunity"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "We are seeking a hands-on and technically strong Software Engineer to guide the design and delivery of intelligent solutions across our unified care coordination, claims management, and patient engagement platforms",
+            "This role combines software engineering expertise in AI/ML system design, full-stack development, and a practical focus on data-driven insights that improve patient management and operational efficiency",
+            "As a team player, you will support technical implementation efforts, and collaborate with clinical, operations, and business teams to operationalize AI solutions that directly enhance patient care and claim’s accuracy",
+            "Implement AI-enabled backend services within a secure, cloud-native microservices environment",
+            "Design and scale Intelligent Document Processing (IDP) pipelines to extract and validate data from claims, authorizations, and medical documentation",
+            "Integrate LLMs and intelligent agents into clinical and claims workflows to streamline patient and provider interactions",
+            "Build AI Agents that surface actionable insights from EHR, claims, and unstructured clinical data",
+            "Translate ML outputs into decision-ready intelligence for providers, payers, and operations leaders",
+            "Support cross-functional architecture sessions, code reviews, and design workshops",
+            "Engineer modern AI/ML development practices, scalable system design, and secure operations",
+            "Work with clinicians, operations staff, and compliance leaders to ensure solutions align with healthcare standards and patient impact goals",
+            "Drive continuous improvement by identifying opportunities to enhance system performance, scalability, and maintainability",
+            "Design scalable APIs and data models that support secure, interoperable data exchange across care coordination and claims systems",
+            "Translate business and clinical requirements into technical designs that are intuitive for end-users and sustainable for engineering teams",
+            "Create design documentation and technical blueprints that guide implementation and ensure alignment with enterprise healthcare standards"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "VetsEZ",
+          "link": "https://vetsez.breezy.hr/p/e8b6a77a7aec01-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Underdog.io",
+          "link": "https://underdog.io/jobs/software_engineer_backend_engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/software-engineer-remote-engineer-austin-tx--edb22bf9-dd4b-4a34-8f2e-50f5584392bd?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/software-engineer-remote-engineer-at-vetsez-4331520533?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/software-engineer-remote-engineer_7ea1a69f0fc5d4c894df58ee0ddbe0c2e5285?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/software-engineer-remote-engineer-vetsez-JV_IC1139761_KO0,33_KE34,40.htm?jl=1009991885346&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Remote Jobs USA",
+          "link": "https://cozydesk.mysmartpros.com/job/923438?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Remote Freelance Data Entry Specialist Needed Flexible Hours, $20/Hr",
+          "link": "https://jobsremoteparttime.com/job/923438?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUmVtb3RlIEVuZ2luZWVyKSIsImNvbXBhbnlfbmFtZSI6IlZldHNFWiIsImFkZHJlc3NfY2l0eSI6IkF1c3RpbiwgVFgiLCJodGlkb2NpZCI6IlZFbXdqOXFtZDZHbFJkWVpBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+    },
+    {
+      "title": "Senior Software Engineer, Distributed Systems (Remote-friendly but US only)",
+      "company_name": "Mixpanel",
+      "location": "Anywhere",
+      "via": "Y Combinator",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=ggMpfa1HoSK-yN9SAAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xWOMQ6CQBAAY8sLjNWWagSMiY22GhMTKSQWVuYOVjg9dsntGuBtfk5spphpJvpOIpsjOQ6Q81M7ExCOVDlCDCs4ONHg7EexhHwQxUZgfsWGFeNncEilH2DMcMuByQ8LiOHMFgRNKOpRwYm58jjb16qt7NJUxCeVqFFXJAU3KRNa7tMXW_njIfV40Hqj-Nhs133SUrWcXlzfGkIPjiDDDu4c3ivI7j_9dGlfvgAAAA&shmds=v1_ATWGeeOAAbGhWMTOaznG9HPF0vuIO83iYRqzbxd5qzz2LcZNXQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=ggMpfa1HoSK-yN9SAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/69688beff8cc785de15275a8/images/43e060e6a03438c8b4711260766d78cb8f529748e5c83a9998076cbe69f79efb.png",
+      "extensions": [
+        "212K–258K a year",
+        "Work from home",
+        "Full-time",
+        "No degree mentioned",
+        "Dental insurance",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "salary": "212K–258K a year",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "qualifications": "No degree mentioned",
+        "dental_coverage": true,
+        "health_insurance": true
+      },
+      "description": "About Mixpanel:\n\nMixpanel is a leading product analytics software company, currently helping the world answer 81 million product questions every year. Our pioneering event-based tracking solution gives product teams the ability to gain insights into how to best acquire, convert, and retain their users across web and mobile platforms.\n\nPowerful, flexible, and easy-to-use, Mixpanel enables teams to learn from their user data and innovate rapidly in creating winning products. Today, we serve nearly 7,000 paying customers through seven offices globally in our quest to provide the most in-depth product analytics that everyone can use and trust.\n\nWe are actively recruiting for multiple Software Engineers across different levels for our org!\n\nAbout the role\n\nMixpanel is powered by a custom distributed database. This system ingests more than 1 Trillion user-generated events every month while ensuring end-to-end latencies of under a minute and queries typically scan more than 1 Quadrillion events over the span of a month. Over the last year, our inbound traffic has doubled. As our existing customers grow in volume and we add new ones, we expect this growth in traffic to continue. The infrastructure engineering teams are responsible for adding new capabilities and ensuring the smooth operation of the underlying systems.\n\nWhat you'll do at Mixpanel\n\nMixpanel's infrastructure runs on Google Cloud Platform. We rely on Kubernetes and Docker for orchestration and containerization of our services. We primarily use Golang for writing services and all internal communication happens via GRPC. We use a combination of C and C++ wherever Golang doesn't meet our performance goals.\n\nAs an engineer on the Infrastructure teams, you'll be responsible for:\n• Working with other engineers to build distributed systems that can handle data at scale\n• Debugging production issues across multiple services and all levels of our infrastructure stack\n• Ensuring reliability and uptime of the services you're responsible for\n• Keeping an eye on how much your service costs every month and removing inefficiencies wherever possible\n• Improving engineering standards and holding a high bar for code quality and simplicity\n• Pushing the boundaries on how our customers analyze their product data\n\nA typical project requires a thorough understanding of how not just your service works but also how it interacts with other components. Here are some projects we've worked on in the past to give you an idea of what to expect.\n• Most of the systems in our stack provide at least once semantics. As a result, we risk duplicating events that flow through them. To overcome this limitation, we added support for event deduplication that can work at our scale. Typical approaches for deduplication don't perform well on large amounts of data, so we had to do something highly custom for our stack. We wrote about this on our engineering blog << https://engineering.mixpanel.com/petabyte-scale-data-deduplication-mixpanel-engineering-e808c70c99f8 >>.\n• Back in 2019, we migrated our ingestion API service from Python to Golang for better performance and type safety. We had to do this while ensuring that both systems handle data the same way. Because we had to compare, both, HTTP responses and transformed payloads, nothing out of the box worked for us. This blog post << https://engineering.mixpanel.com/safely-rewriting-mixpanels-highest-throughput-service-in-golang-mixpanel-engineering-62cd69b5ebdb >> talks about how we did the actual migration without any customer visible downtime.\n• In 2021, as our traffic grew almost 100%, the cost of storing data became untenable. Our engineers worked on an incremental way to eventually realize almost $30000 in savings per month << https://engineering.mixpanel.com/saving-30000-a-month-by-improving-garbage-collection-c5b793bbb07d >>.\n\nIf projects like the ones listed above excite you, the infrastructure engineering team will be a great fit.\n\nWhat we're looking for\n\nWe have openings across multiple infrastructure teams. We're looking for engineers who have:\n• A strong grasp of computer science fundamentals when it comes to dealing with distributed systems and networks. You'll routinely run into issues where \"one in a million\" chances actually happen in production\n• A knack for problem-solving and thinking from first principles. You don't shy away from any problem, no matter the scale or impact\n• A bias towards shipping early and iterating. We believe in making small incremental changes to existing systems instead of large multi-quarter undertakings\n• Experience building distributed systems or is eager to build that skillset\n\nBenefits and Perks\n• Comprehensive Medical, Vision, and Dental Care\n• Mental Wellness Benefit\n• Generous Vacation Policy & Additional Company Holidays\n• Enhanced Parental Leave\n• Volunteer Time Off\n• Additional US Benefits: Pre-Tax Benefits including 401(K), Wellness Benefit, Holiday Break\n\nplease note that benefits and perks for contract positions will vary\n\nAbout our culture:\n\nBe Open: When knowledge becomes open, we can come together as a team to collaborate around a shared purpose.\n\nCustomer Focus: Our customers’ success is our success.\n\nLead Change: Everyone at Mixpanel has the capacity to make an impact on the business.\n\nResults Oriented: Driving results in a measurable way ensures we stay focused on the highest impact initiatives.\n\nOne Team: We can’t win without each other.\n\nWhy choose Mixpanel?\n\nWe’re the leader in product analytics and have raised $277M from prominent investors like Andreessen-Horowitz, Sequoia, YC, and Bain Capital. Over the years, we’ve seen a spike in our leading indicators—signups and weekly active users—which have directly translated to revenue growth. Recently, we secured a $200M Series C growth investment from Bain Capital to accelerate our product development, expand our reach to customers, and more. Our award-winning teams make our continued growth possible by finding creative solutions to ever-changing challenges with scaling, reliability, design, and service. Today, we’re the only company single-mindedly focused on enabling the world’s most innovative companies to use data to uncover insights about their customers to build better products.\n\nMixpanel is an equal opportunity employer supporting workforce diversity. At Mixpanel, we are focused on things that really matter—our people, our customers, our partners—out of a recognition that those relationships are the most valuable assets we have. We actively encourage women, people with disabilities, veterans, underrepresented minorities, and LGBTQ+ people to apply. We do not discriminate on the basis of race, religion, color, national origin, gender, gender identity or expression, sexual orientation, age, marital status, veteran status, or disability status. Pursuant to the San Francisco Fair Chance Ordinance or other similar laws that may be applicable, we will consider for employment qualified applicants with arrest and conviction records. We’ve immersed ourselves in our Culture and Values as our guiding principles for the impact we want to have and the future we are building.",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "A strong grasp of computer science fundamentals when it comes to dealing with distributed systems and networks",
+            "You'll routinely run into issues where \"one in a million\" chances actually happen in production",
+            "A knack for problem-solving and thinking from first principles",
+            "You don't shy away from any problem, no matter the scale or impact",
+            "A bias towards shipping early and iterating",
+            "We believe in making small incremental changes to existing systems instead of large multi-quarter undertakings",
+            "Experience building distributed systems or is eager to build that skillset"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Our engineers worked on an incremental way to eventually realize almost $30000 in savings per month << https://engineering.mixpanel.com/saving-30000-a-month-by-improving-garbage-collection-c5b793bbb07d >>",
+            "Benefits and Perks",
+            "Comprehensive Medical, Vision, and Dental Care",
+            "Mental Wellness Benefit",
+            "Generous Vacation Policy & Additional Company Holidays",
+            "Enhanced Parental Leave",
+            "Volunteer Time Off",
+            "Additional US Benefits: Pre-Tax Benefits including 401(K), Wellness Benefit, Holiday Break"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As an engineer on the Infrastructure teams, you'll be responsible for:",
+            "Working with other engineers to build distributed systems that can handle data at scale",
+            "Debugging production issues across multiple services and all levels of our infrastructure stack",
+            "Ensuring reliability and uptime of the services you're responsible for",
+            "Keeping an eye on how much your service costs every month and removing inefficiencies wherever possible",
+            "Improving engineering standards and holding a high bar for code quality and simplicity",
+            "Pushing the boundaries on how our customers analyze their product data",
+            "A typical project requires a thorough understanding of how not just your service works but also how it interacts with other components"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "Y Combinator",
+          "link": "https://www.ycombinator.com/companies/mixpanel/jobs/R6Dkw4lTy-senior-software-engineer-distributed-systems-remote-friendly-but-us-only?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobmatrix.social-Networking",
+          "link": "https://jobmatrix.social-networking.me/job/senior-software-engineer-distributed-systems-remote-friendly-but-us-only?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Hirelane.10001mb",
+          "link": "https://hirelane.10001mb.com/job/senior-software-engineer-distributed-systems-remote-friendly-but-us-only?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "USA Remote Job Ca MySmartPros",
+          "link": "https://ca.mysmartpros.com/job/senior-software-engineer-distributed-systems-remote-friendly-but-us-only/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Core Measures Data Abstractor: Full-Time",
+          "link": "https://novexwork.net/job/926984?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "RGP Remote Jobs In USA",
+          "link": "https://zesthires.com/job/926984?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIsIERpc3RyaWJ1dGVkIFN5c3RlbXMgKFJlbW90ZS1mcmllbmRseSBidXQgVVMgb25seSkiLCJjb21wYW55X25hbWUiOiJNaXhwYW5lbCIsImFkZHJlc3NfY2l0eSI6Ik5ldyBZb3JrLCBOWSIsImh0aWRvY2lkIjoiZ2dNcGZhMUhvU0steU45U0FBQUFBQT09IiwiaGwiOiJlbiJ9"
+    },
+    {
+      "title": "Senior Software Engineer, Full Stack – Shopping (Remote) | Windsor, CT, USA",
+      "company_name": "Capital One Financial Corporation",
+      "location": "Anywhere",
+      "via": "Tallo",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=73xn0mxMk2CsVlb3AAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xWOQUoDQRBFcZsjuPpLlTgTAm50JYMRsgnYBpehp1P2lHaqmu4KZuHCO3g2L-BJbDcfHnze_7Ofs9nekbAWOH21D18IDxJZiMocq2NKcObDO36_vuEmzZkl4uKJDmp0iU-8sOyrtu7wPMfW3eMaax1RyZcwQQWPqjHR-d1klutt39eauljNG4cu6KFXoVFP_ZuO9T92dWofcvJGu-XN4tRliVeLwWc2n7ARworFS-BGg5aspZnaDEtDEQrNe7Q_zYY6h9gAAAA&shmds=v1_ATWGeeO0y1byvapOJOEW9Ie1JC11apcYIjV78qa-XDd6Hgfo-Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=73xn0mxMk2CsVlb3AAAAAA%3D%3D",
+      "extensions": [
+        "3 days ago",
+        "158K a year",
+        "Work from home",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "posted_at": "3 days ago",
+        "salary": "158K a year",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "qualifications": "No degree mentioned"
+      },
+      "description": "This job listing in Capitol - CT has been recently added. Tallo will add a summary here for this job shortly.",
+      "apply_options": [
+        {
+          "title": "Tallo",
+          "link": "https://tallo.com/jobs/technology/software-developer-engineer/ct/capitol/senior-software-engineer-full-stack-shopping-80f953b5a0f5/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIsIEZ1bGwgU3RhY2sg4oCTIFNob3BwaW5nIChSZW1vdGUpIHwgV2luZHNvciwgQ1QsIFVTQSIsImNvbXBhbnlfbmFtZSI6IkNhcGl0YWwgT25lIEZpbmFuY2lhbCBDb3Jwb3JhdGlvbiIsImFkZHJlc3NfY2l0eSI6IkNvbm5lY3RpY3V0IiwiaHRpZG9jaWQiOiI3M3huMG14TWsyQ3NWbGIzQUFBQUFBPT0iLCJobCI6ImVuIn0="
+    },
+    {
+      "title": "Software Engineer, Infrastructure (Remote Americas)",
+      "company_name": "getLago",
+      "location": "Anywhere",
+      "via": "SignalFire Job Board",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=U4HlfCionKfxeeTTAAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xWNMQrCQBAAsc0LxGpLFc2JYKOVhYjBymAdLufm7iTZDbcbzH_8qLGZZmAm-86youRGPzYhXMhHQkwbuFGTrGganA6TWD6wY0U4d5iis7KCLRRcg6BNLgATXJl9i4tTUO3laIxIm3tRq9HljjvDhDWP5s21_FFJmIZ9axWr_WE35j359dyj3q1niARPioovKKcCyg88Y_QIpgAAAA&shmds=v1_ATWGeeNQq_MC_ZxLIJLQBuhWGI2MHnRa8QzDVkHt7xHdUuQ3JQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=U4HlfCionKfxeeTTAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/69688beff8cc785de15275a8/images/43e060e6a03438c83000c71cf8b2b61c34892171102b6652f2a9d7223bdb6b39.jpeg",
+      "extensions": [
+        "16 days ago",
+        "Work from home",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "posted_at": "16 days ago",
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "qualifications": "No degree mentioned"
+      },
+      "description": "About Lago\n\nAt Lago, we’re on a mission to make billing simpler, more transparent, and more adaptable for SaaS companies.\n\nAs the leading open-source billing platform, we empower businesses to build flexible pricing models and scale with confidence. We’ve raised over $22 million in funding from top-tier investors including Y Combinator and FirstMark, reflecting strong confidence in our vision and growth.\n\nOur platform has garnered over 8,000 stars on GitHub, a testament to our active and growing developer community. Companies such as PayPal, Synthesia and Mistral.ai choose Lago for their billing.\n\nWe’re a team of ambitious, focused individuals who work together to solve hard problems with excellence and accountability. At Lago, we value reliability and proactivity—we trust each other to own tasks, drive them to completion, and adapt quickly. While we encourage you to try fast and “fail fast”, we also expect you to learn fast: make mistakes, but don’t make the same one twice.\n\nIf you’re excited by challenges and want to grow alongside a high-performing, supportive team, this is the place for you.\nWhat You’ll Do\n• Own and scale Lago’s infrastructure to ensure reliability, performance, and security.\n• Design and automate infrastructure provisioning using Terraform, Kubernetes, and CI/CD pipelines.\n• Optimize databases (PostgreSQL, Clickhouse) for high availability and performance.\n• Improve monitoring and observability, ensuring proactive detection and resolution of issues.\n• Enhance security practices, from IAM policies to data protection strategies.\n• Collaborate with engineers to improve deployment processes and DevOps best practices.\nWhat We’re Looking For\n• Strong experience in infrastructure engineering, DevOps, or SRE roles: 5 year+\n• Expertise in Kubernetes, Terraform, and cloud environments (AWS/GCP).\n• Experience managing and scaling PostgreSQL in production.\n• Proficiency in Ruby or Go (or willingness to learn).\n• Passion for open-source and infrastructure-as-code principles.\n• Ability to work autonomously in a fast-moving startup environment.\n\nBonus Points\n\n✅ Experience with open-source projects or developer tools.\n\n✅ Strong background in security and compliance for cloud applications.\n\n✅ Prior experience in metering, billing, or fintech infrastructure.\nWhy Join Lago?\n\n🔥 Impactful role: Build infrastructure for a fast-growing open-source company.\n\n💡 Technical challenges: Solve complex scalability and reliability problems.\n\n🌍 Remote-friendly: Work from anywhere in France or join us in Paris.",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Strong experience in infrastructure engineering, DevOps, or SRE roles: 5 year+",
+            "Expertise in Kubernetes, Terraform, and cloud environments (AWS/GCP)",
+            "Experience managing and scaling PostgreSQL in production",
+            "Proficiency in Ruby or Go (or willingness to learn)",
+            "Passion for open-source and infrastructure-as-code principles",
+            "Ability to work autonomously in a fast-moving startup environment",
+            "✅ Experience with open-source projects or developer tools",
+            "✅ Strong background in security and compliance for cloud applications",
+            "✅ Prior experience in metering, billing, or fintech infrastructure"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Own and scale Lago’s infrastructure to ensure reliability, performance, and security",
+            "Design and automate infrastructure provisioning using Terraform, Kubernetes, and CI/CD pipelines",
+            "Optimize databases (PostgreSQL, Clickhouse) for high availability and performance",
+            "Improve monitoring and observability, ensuring proactive detection and resolution of issues",
+            "Enhance security practices, from IAM policies to data protection strategies",
+            "Collaborate with engineers to improve deployment processes and DevOps best practices"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "SignalFire Job Board",
+          "link": "https://jobs.signalfire.com/companies/getlago-2/jobs/64307244-software-engineer-infrastructure-remote-americas?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciwgSW5mcmFzdHJ1Y3R1cmUgKFJlbW90ZSBBbWVyaWNhcykiLCJjb21wYW55X25hbWUiOiJnZXRMYWdvIiwiYWRkcmVzc19jaXR5IjoiVW5pdGVkIFN0YXRlcyIsImh0aWRvY2lkIjoiVTRIbGZDaW9uS2Z4ZWVUVEFBQUFBQT09IiwiaGwiOiJlbiJ9"
+    },
+    {
+      "title": "Senior Software Engineer - Developer Tools, Poe (Remote)",
+      "company_name": "Quora",
+      "location": "Anywhere",
+      "via": "Jobs",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=remote+software+engineer&htidocid=dp8xpIY1VM1DdhI8AAAAAA%3D%3D&hl=en-US&shem=bdsle&shndl=37&shmd=H4sIAAAAAAAA_xWNuwrCQBBFsc0HWFhNqaJZEWy0VQQbH9E6bOK4WdnMLDuj5ov8TmNzOXA43Ow7yI4FkucEBT_0YxPCjpwnxARz2OIbA8eer8xBZnBihPEFW1ac9P7AFQjaVDfABHtmF3C0aVSjrI0RCbkTterrvObWMGHFnXlyJf8ppenvYrCK5XK16PJIbjo8vzhZ8AQ38op3KPoe5QcfdSANqQAAAA&shmds=v1_ATWGeeP41GeNs9yKWG3Jv__5oqz-FoXyIpZq3fRsOK8IyEvRHA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=remote+software+engineer&htidocid=dp8xpIY1VM1DdhI8AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/69688beff8cc785de15275a8/images/43e060e6a03438c862399fceb21471f35bd4b59db3520c3cbbb98fdd16d7ac49.png",
+      "extensions": [
+        "Work from home",
+        "Full-time",
+        "Health insurance",
+        "Paid time off",
+        "Dental insurance"
+      ],
+      "detected_extensions": {
+        "work_from_home": true,
+        "schedule_type": "Full-time",
+        "health_insurance": true,
+        "paid_time_off": true,
+        "dental_coverage": true
+      },
+      "description": "[Quora is a privately held, \"remote-first\" company. This position can be performed remotely from multiple countries around the world. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.]\n\nAbout Quora:\n\nQuora’s mission is to grow the world's collective intelligence. To do so, we have two platforms:\n• Quora: a global knowledge sharing platform with over 300M monthly unique visitors, bringing people together to share insights on various topics and providing a unique platform to learn and connect with others.\n• Poe: a platform providing millions of global users with one place to chat, explore and build with a wide variety of AI language models (bots), including GPT-5, Claude Sonnet 4.5, Grok 4, Veo 3.1, Gemini 2.5 Flash Image (Nano Banana), and more. As AI capabilities rapidly advance, Poe provides a single platform to instantly integrate and utilize these new models.\n\nBehind these products are passionate, collaborative, and high-performing global teams. We have a culture rooted in transparency, idea-sharing, and experimentation that allows us to celebrate success and grow together through meaningful work. Join us on this journey to create a positive impact and make a significant change in the world.\n\nThis role will be working on our Poe product.\n\nAbout the Team and Role:\n\nOur small engineering team works on challenging problems every day. We have a culture that's rooted in constantly learning and improving, and our engineers are encouraged to think big and experiment with new ideas. With continuous deployment, we ship changes quickly and iterate fast. Our engineers focus on creating polished products and writing high quality code by designing APIs and abstractions that are extensible and maintainable. We value development velocity and invests heavily in tools and frameworks that help a lean team to move faster and achieve more. Everyone on the engineering team has a significant impact on our product and company.\n\nThe Platform team focuses on increasing the productivity of product developers (including engineers, designers, and data scientists) by building tools, frameworks, and abstractions that make their work easier. This team’s projects range from building reusable component libraries to enhancing debugging tools that improve the development lifecycle. There are many impactful challenges in advancing our frameworks and systems across our modern architecture, supporting both our AI product, Poe, and the core Quora platform.\n\nIn this role, you’ll be working with other members of the team across a variety of projects to improve efficiency of product developers, with a focus on supporting the Poe product. You'll work closely with Poe product teams to understand pain points and build tools to increase their velocity. You'll be working mainly with Python and modern Javascript frameworks like React, NextJS, GraphQL and Relay. This role is great for full-stack generalists who enjoy empowering other developers, eager to learn and execute in different parts of the stack.\n\nResponsibilities:\n• Develop, maintain, and build tools that make Poe and Quora product developers (engineers, designers, data scientists) more efficient\n• Contribute to building and maintaining reusable components used by developers\n• Collaborate closely with product teams to identify pain points and understand developer workflow challenges\n• Drive proposals and initiatives to address developer challenges and adopt new frameworks\n\nMinimum Requirements:\n• Availability for meetings and impromptu communication during Quora's “coordination hours\" (Mon-Fri: 9am-3pm Pacific Time)\n• B.S. or M.S. in Computer Science, Engineering or a related technical field, or a completion of coding bootcamp or equivalent work experience\n• 4+ years of experience working with large scale codebases and systems, particularly web applications and frontend architecture\n• 4+ years of experience building APIs that are used by large teams\n• 2+ years of experience working with React and GraphQL\n\nPreferred Requirements:\n• Experience and strong interest in building tools to support other developers, or client-side performance. This may include contributions to open source projects\n• Experience with NextJS, Relay or similar modern web framework\n• Interest in working full-stack\n• Passion for building reliable, performant consumer internet products\n\nAt Quora, we value diversity and inclusivity and welcome individuals from all backgrounds, including marginalized or underrepresented groups in tech, to apply for our job openings. We encourage all candidates who share a passion for growing the world’s knowledge, even those who may not strictly meet all the preferred requirements, to apply, as we know that a diverse range of perspectives can have a significant impact on our products and our culture.\n\nAdditional Information:\n\nWe are accepting applications on an ongoing basis. This role is a backfill for an existing vacancy.\n\nQuora offers a wide range of benefits including medical/dental/vision coverage, equity refreshers, remote work reimbursement, paid time off, employee assistance programs, and more. Benefits are country-specific and may vary. For more information on benefits, visit this link: https://www.careers.quora.com/benefits\n\nThere are many factors that will determine the starting pay, including but not limited to experience, location, education, and business needs.\n• US candidates only: For US based applicants, the salary range is $155,656 - $225,160 USD + equity + benefits.\n• Canada candidates only: For Toronto and Vancouver based applicants, the salary range is $204,658 - $236,834 CAD + equity + benefits. For all other locations in Canada, the salary range is $191,014 - $221,045 CAD + equity + benefits.\n\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.\n\nPlease note: AI technology may assist in sorting applications and recording interview notes, but all decisions are made by a member of our team.\n\n#LI-RJ1\n#LI-REMOTE",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Availability for meetings and impromptu communication during Quora's “coordination hours\" (Mon-Fri: 9am-3pm Pacific Time)",
+            "B.S. or M.S. in Computer Science, Engineering or a related technical field, or a completion of coding bootcamp or equivalent work experience",
+            "4+ years of experience working with large scale codebases and systems, particularly web applications and frontend architecture",
+            "4+ years of experience building APIs that are used by large teams",
+            "2+ years of experience working with React and GraphQL",
+            "This may include contributions to open source projects",
+            "Experience with NextJS, Relay or similar modern web framework",
+            "Interest in working full-stack",
+            "Passion for building reliable, performant consumer internet products"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Quora offers a wide range of benefits including medical/dental/vision coverage, equity refreshers, remote work reimbursement, paid time off, employee assistance programs, and more",
+            "Benefits are country-specific and may vary",
+            "For more information on benefits, visit this link: https://www.careers.quora.com/benefits",
+            "US candidates only: For US based applicants, the salary range is $155,656 - $225,160 USD + equity + benefits",
+            "Canada candidates only: For Toronto and Vancouver based applicants, the salary range is $204,658 - $236,834 CAD + equity + benefits",
+            "For all other locations in Canada, the salary range is $191,014 - $221,045 CAD + equity + benefits"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role will be working on our Poe product",
+            "There are many impactful challenges in advancing our frameworks and systems across our modern architecture, supporting both our AI product, Poe, and the core Quora platform",
+            "In this role, you’ll be working with other members of the team across a variety of projects to improve efficiency of product developers, with a focus on supporting the Poe product",
+            "You'll work closely with Poe product teams to understand pain points and build tools to increase their velocity",
+            "You'll be working mainly with Python and modern Javascript frameworks like React, NextJS, GraphQL and Relay",
+            "This role is great for full-stack generalists who enjoy empowering other developers, eager to learn and execute in different parts of the stack",
+            "Develop, maintain, and build tools that make Poe and Quora product developers (engineers, designers, data scientists) more efficient",
+            "Contribute to building and maintaining reusable components used by developers",
+            "Collaborate closely with product teams to identify pain points and understand developer workflow challenges",
+            "Drive proposals and initiatives to address developer challenges and adopt new frameworks"
+          ]
+        }
+      ],
+      "apply_options": [
+        {
+          "title": "Jobs",
+          "link": "https://jobs.ashbyhq.com/quora/d7a6d23d-94cf-4bab-956c-72ca36c744ff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Wellfound",
+          "link": "https://wellfound.com/jobs/3629349-senior-software-engineer-developer-tools-poe-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=d0417d9d03a43840&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In NYC",
+          "link": "https://www.builtinnyc.com/job/elasticsearch-senior-python-engineer-performance-team/8008983?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In San Francisco",
+          "link": "https://www.builtinsf.com/job/elasticsearch-senior-python-engineer-performance-team/8008983?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In",
+          "link": "https://builtin.com/job/elasticsearch-senior-python-engineer-performance-team/8008983?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In Chicago",
+          "link": "https://www.builtinchicago.org/job/elasticsearch-senior-python-engineer-performance-team/8008983?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/senior-software-engineer-developer-tools-poe-remote-quora-JV_IC1139761_KO0,51_KE52,57.htm?jl=1009961264690&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIgLSBEZXZlbG9wZXIgVG9vbHMsIFBvZSAoUmVtb3RlKSIsImNvbXBhbnlfbmFtZSI6IlF1b3JhIiwiYWRkcmVzc19jaXR5IjoiVW5pdGVkIFN0YXRlcyIsImh0aWRvY2lkIjoiZHA4eHBJWTFWTTFEZGhJOEFBQUFBQT09IiwiaGwiOiJlbiJ9"
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkVzd0RDb3dEUVUxdU15MTVVV3hqVFhGd05rZEVYemhQVWt0blYzZG5UVmN5VlhaaE5saFpkR2gyYTFaYWJYaGpjVE54Um5jeVRqUTBjMWRmV25OdWExVkZNM1owUlV4eWNEZHNZM04wUld4Q2FXdFlMUzFCVW14RlRHczFka2RYUzBzMVlsTmlZbk5QVldnNVZ6Z3liMnBXU0RSSE1saFdVa2xHUmtZNVpFZFdaRzlsVlZoVGJsOUZlVEF3VGs1WmRFVlJjemh2UlROelFVWmxNMFZ6ZDJwWllWZzJaRTFWUzJ4dVdVUTNVVU5XV1d4S2VXczJURUZFV1d3eVJsQlpYMEZsZEZWcVdGUmlaREpRVTFsaUxYTmpUek5wTFVOalZWVmtjMDFDWmtSMlZEazBRa1YxWW1SamF6UnVPRWsyU2pKRFRIRk9abW8xWlU1dlFYZGtOWFJQVG1kRVpuVk1ORXh6TWpac1kxaEtObXA0ZUZGbmNVZGtaSEF6YzNoM1psUm5hRlI2TlVWTlJVWmFjVWM1TVhCSFJVb3RUWFkyUmpJd1lXczFYMk5hVVdwcWRETjJjVWxtVkdrM1NHaFRhVWRyWXpneGJ6bDJaMDVmVmpFdFJVOXNTMVpqWTIxek0xWlVPRlExTUhGaFdrVlhUVTFMT0haeFNtWjFTVkYxV21KMk16SlRUVGxMUlU5MWRsZEVabUZhRWhjM05IUnZZV1ZxWmt4eVIzSndkRkZRYVZBM1dDMVJkeG9pUVVwTFRFWnRTMEZUVkZGcU1qWnpkbEozU0U1Tk9HdFlWbWt0VkRSQmVTMUlkdyIsImZjdiI6IjMifQ==",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&next_page_token=eyJmYyI6IkVzd0RDb3dEUVUxdU15MTVVV3hqVFhGd05rZEVYemhQVWt0blYzZG5UVmN5VlhaaE5saFpkR2gyYTFaYWJYaGpjVE54Um5jeVRqUTBjMWRmV25OdWExVkZNM1owUlV4eWNEZHNZM04wUld4Q2FXdFlMUzFCVW14RlRHczFka2RYUzBzMVlsTmlZbk5QVldnNVZ6Z3liMnBXU0RSSE1saFdVa2xHUmtZNVpFZFdaRzlsVlZoVGJsOUZlVEF3VGs1WmRFVlJjemh2UlROelFVWmxNMFZ6ZDJwWllWZzJaRTFWUzJ4dVdVUTNVVU5XV1d4S2VXczJURUZFV1d3eVJsQlpYMEZsZEZWcVdGUmlaREpRVTFsaUxYTmpUek5wTFVOalZWVmtjMDFDWmtSMlZEazBRa1YxWW1SamF6UnVPRWsyU2pKRFRIRk9abW8xWlU1dlFYZGtOWFJQVG1kRVpuVk1ORXh6TWpac1kxaEtObXA0ZUZGbmNVZGtaSEF6YzNoM1psUm5hRlI2TlVWTlJVWmFjVWM1TVhCSFJVb3RUWFkyUmpJd1lXczFYMk5hVVdwcWRETjJjVWxtVkdrM1NHaFRhVWRyWXpneGJ6bDJaMDVmVmpFdFJVOXNTMVpqWTIxek0xWlVPRlExTUhGaFdrVlhUVTFMT0haeFNtWjFTVkYxV21KMk16SlRUVGxMUlU5MWRsZEVabUZhRWhjM05IUnZZV1ZxWmt4eVIzSndkRkZRYVZBM1dDMVJkeG9pUVVwTFRFWnRTMEZUVkZGcU1qWnpkbEozU0U1Tk9HdFlWbWt0VkRSQmVTMUlkdyIsImZjdiI6IjMifQ%3D%3D&q=remote+software+engineer"
+  }
+}

@@ -1,65 +1,195 @@
+"use client";
+
+import { motion } from "framer-motion";
+import Hero from "./components/home/Hero";
+import JobListings from "./components/home/JobListings";
+import CategorySection from "./components/home/CategorySection";
+import CompanySpotlight from "./components/home/CompanySpotlight";
+import { Button } from "@/app/components/ui/button";
+import { ChevronRight, MessageSquare, Users, Briefcase } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <>
+      <Hero />
+      <JobListings />
+      <CategorySection />
+      <CompanySpotlight />
+
+      {/* Testimonials section */}
+      <section className="py-16 md:py-24">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 text-center md:mb-16"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <h2 className="text-foreground mb-4 text-2xl font-bold md:text-3xl">
+              What Job Seekers Say
+            </h2>
+            <p className="text-muted-foreground mx-auto max-w-2xl">
+              Real stories from people who found their remote entry-level jobs
+              through our platform
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
+            {[
+              {
+                quote:
+                  "After struggling to find entry-level positions that didn't require years of experience, RemoteHunter was a game-changer. I found and landed a remote developer role within 3 weeks!",
+                name: "Alex Rivera",
+                role: "Junior Web Developer",
+              },
+              {
+                quote:
+                  "The resources section helped me prepare for remote interviews and improve my portfolio. The job listings were current and relevant to my skill level. Highly recommend!",
+                name: "Jordan Taylor",
+                role: "Marketing Coordinator",
+              },
+              {
+                quote:
+                  "As someone looking for my first job after college, I was intimidated by remote work. The company profiles and detailed job descriptions made it easy to find positions that matched my experience level.",
+                name: "Casey Wilson",
+                role: "Customer Support Specialist",
+              },
+            ].map((testimonial, index) => (
+              <motion.div
+                key={testimonial.name}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.15 }}
+                whileHover={{ y: -4, transition: { duration: 0.2 } }}
+                className="bg-card relative rounded-xl border p-6 md:p-8"
+              >
+                <MessageSquare className="text-primary/10 absolute top-6 right-6 h-12 w-12" />
+                <p className="text-foreground relative z-10 mb-6">
+                  &quot;{testimonial.quote}&quot;
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="bg-secondary flex h-10 w-10 items-center justify-center rounded-full">
+                    <Users className="text-muted-foreground h-5 w-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium">{testimonial.name}</h4>
+                    <p className="text-muted-foreground text-sm">
+                      {testimonial.role}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* CTA section */}
+      <section className="bg-muted/30 py-12 md:py-16">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-card relative overflow-hidden rounded-xl border"
+          >
+            {/* Ambient Background Animation */}
+            <div className="absolute inset-0 z-0 overflow-hidden">
+              <motion.div
+                animate={{
+                  scale: [1, 1.2, 1],
+                  rotate: [0, 90, 0],
+                  opacity: [0.5, 0.8, 0.5],
+                }}
+                transition={{
+                  duration: 15,
+                  repeat: Infinity,
+                  ease: "linear",
+                }}
+                className="bg-primary/30 absolute -top-1/2 -left-1/2 h-full w-full rounded-full blur-[100px]"
+              />
+              <motion.div
+                animate={{
+                  scale: [1, 1.3, 1],
+                  rotate: [0, -60, 0],
+                  opacity: [0.4, 0.7, 0.4],
+                }}
+                transition={{
+                  duration: 18,
+                  repeat: Infinity,
+                  ease: "linear",
+                  delay: 2,
+                }}
+                className="bg-secondary/30 absolute -right-1/2 -bottom-1/2 h-full w-full rounded-full blur-[100px]"
+              />
+              <motion.div
+                animate={{
+                  x: ["0%", "20%", "0%"],
+                  y: ["0%", "-20%", "0%"],
+                  opacity: [0.2, 0.5, 0.2],
+                }}
+                transition={{
+                  duration: 20,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+                className="bg-primary/20 absolute top-1/2 left-1/2 h-[120%] w-[120%] -translate-x-1/2 -translate-y-1/2 rounded-full blur-[120px]"
+              />
+            </div>
+
+            <div className="relative z-10 grid grid-cols-1 md:grid-cols-1">
+              <div className="flex flex-col items-center justify-center p-8 text-center md:p-14 lg:p-20">
+                <motion.h2
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  className="text-foreground mb-6 max-w-2xl text-2xl font-bold md:text-3xl lg:text-4xl"
+                >
+                  Ready to Start Your Remote Career?
+                </motion.h2>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.3 }}
+                  className="text-muted-foreground mb-8 max-w-xl text-lg"
+                >
+                  Join thousands of job seekers who found their perfect
+                  entry-level remote positions through RemoteHunter. New
+                  opportunities are added daily.
+                </motion.p>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.4 }}
+                  className="flex flex-col gap-4 sm:flex-row"
+                >
+                  <Link href="/jobs">
+                    <Button
+                      size="lg"
+                      className="bg-primary hover:bg-primary/90 px-8 text-white"
+                    >
+                      Browse Jobs
+                    </Button>
+                  </Link>
+                  <Link href="/auth/signup">
+                    <Button variant="outline" size="lg" className="gap-2 px-8">
+                      Create Account <ChevronRight className="h-4 w-4" />
+                    </Button>
+                  </Link>
+                </motion.div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+    </>
   );
 }
