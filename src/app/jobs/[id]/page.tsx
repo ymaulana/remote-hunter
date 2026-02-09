@@ -13,6 +13,7 @@ import {
   Briefcase,
 } from "lucide-react";
 import Link from "next/link";
+import ClientDate from "@/app/components/ui/ClientDate";
 
 export default function JobDetailPage() {
   const params = useParams();
@@ -45,30 +46,11 @@ export default function JobDetailPage() {
     );
   }
 
-  const formatSalary = () => {
-    if (!job.salaryMin && !job.salaryMax) return "Salary not disclosed";
-    if (job.salaryMin && job.salaryMax) {
-      return `${job.currency} ${job.salaryMin.toLocaleString()} - ${job.salaryMax.toLocaleString()}`;
-    }
-    if (job.salaryMin) {
-      return `From ${job.currency} ${job.salaryMin.toLocaleString()}`;
-    }
-    return `Up to ${job.currency} ${job.salaryMax?.toLocaleString()}`;
-  };
-
-  const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-  };
-
   return (
     <div className="bg-background min-h-screen">
       {/* Header */}
       <section className="from-primary/5 border-b bg-linear-to-b to-transparent py-8">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto mt-16 px-6">
           <Link
             href="/jobs"
             className="text-muted-foreground hover:text-primary mb-6 inline-flex items-center gap-2 text-sm transition-colors"
@@ -82,42 +64,51 @@ export default function JobDetailPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="mb-4 flex items-start justify-between">
-              <div>
-                <h1 className="text-foreground mb-2 text-3xl font-bold md:text-4xl">
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+              <div className="lg:col-span-2">
+                <h1 className="text-foreground mb-4 text-3xl font-bold md:text-4xl">
                   {job.title}
                 </h1>
-                <p className="text-muted-foreground text-xl">{job.company}</p>
-              </div>
-              {job.source === "EXTERNAL" && job.externalLink && (
-                <a
-                  href={job.externalLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-primary hover:bg-primary/90 flex items-center gap-2 rounded-lg px-6 py-3 font-semibold text-white transition-colors"
-                >
-                  Apply Now
-                  <ExternalLink className="h-4 w-4" />
-                </a>
-              )}
-            </div>
+                <p className="text-muted-foreground mb-4 text-xl">
+                  {job.company}
+                </p>
 
-            <div className="text-muted-foreground flex flex-wrap gap-4 text-sm">
-              <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4" />
-                <span>{job.location}</span>
+                <div className="text-muted-foreground flex flex-wrap gap-4 text-sm">
+                  <div className="flex items-center gap-2">
+                    <MapPin className="h-4 w-4" />
+                    <span>{job.location}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <DollarSign className="h-4 w-4" />
+                    <span>{job.salary || "Salary not disclosed"}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Calendar className="h-4 w-4" />
+                    <span suppressHydrationWarning>
+                      Posted <ClientDate date={job.postedAt} />
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Briefcase className="h-4 w-4" />
+                    <span className="capitalize">
+                      {job.source.toLowerCase()}
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <DollarSign className="h-4 w-4" />
-                <span>{formatSalary()}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Calendar className="h-4 w-4" />
-                <span>Posted {formatDate(job.postedAt)}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Briefcase className="h-4 w-4" />
-                <span className="capitalize">{job.source.toLowerCase()}</span>
+
+              <div className="lg:col-span-1">
+                {job.source === "EXTERNAL" && job.externalLink && (
+                  <a
+                    href={job.externalLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-primary hover:bg-primary/90 flex max-w-fit items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold text-white transition-colors"
+                  >
+                    Apply Now
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>
@@ -125,7 +116,7 @@ export default function JobDetailPage() {
       </section>
 
       {/* Main Content */}
-      <section className="py-12">
+      <section>
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* Job Description */}
@@ -160,12 +151,13 @@ export default function JobDetailPage() {
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {job.tags.map((tag, idx) => (
-                      <span
+                      <Link
                         key={idx}
-                        className="bg-primary/10 text-primary rounded-full px-3 py-1.5 text-sm font-medium"
+                        href={`/jobs?tags=${encodeURIComponent(tag)}`}
+                        className="bg-primary/10 text-primary hover:bg-primary/20 rounded-full px-3 py-1.5 text-sm font-medium transition-colors"
                       >
                         {tag}
-                      </span>
+                      </Link>
                     ))}
                   </div>
                 </div>

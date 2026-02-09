@@ -1,3 +1,12 @@
+import {
+    subMinutes,
+    subHours,
+    subDays,
+    subWeeks,
+    subMonths,
+    subYears
+} from 'date-fns';
+
 export function parseRelativeDate(text: string): Date {
     const now = new Date();
     const match = text.match(/(\d+)\s+(minute|hour|day|week|month)s?\s+ago/i);
@@ -8,11 +17,12 @@ export function parseRelativeDate(text: string): Date {
     const unit = match[2].toLowerCase();
 
     switch (unit) {
-        case 'minute': return new Date(now.getTime() - value * 60 * 1000);
-        case 'hour': return new Date(now.getTime() - value * 60 * 60 * 1000);
-        case 'day': return new Date(now.getTime() - value * 24 * 60 * 60 * 1000);
-        case 'week': return new Date(now.getTime() - value * 7 * 24 * 60 * 60 * 1000);
-        case 'month': return new Date(now.getTime() - value * 30 * 24 * 60 * 60 * 1000);
+        case 'minute': return subMinutes(now, value);
+        case 'hour': return subHours(now, value);
+        case 'day': return subDays(now, value);
+        case 'week': return subWeeks(now, value);
+        case 'month': return subMonths(now, value);
+        case 'year': return subYears(now, value);
         default: return now;
     }
 }

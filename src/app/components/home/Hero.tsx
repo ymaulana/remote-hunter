@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import { ChevronRight, Briefcase, Globe, Users } from "lucide-react";
-import { Button } from "@/app/components/ui/button";
+import { buttonVariants } from "@/app/components/ui/button";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const Hero = () => {
@@ -79,13 +80,14 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="mt-8 md:mt-10"
           >
-            <Link href="/jobs">
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 px-8 py-6 text-lg text-white"
-              >
-                Browse Jobs <ChevronRight className="ml-2 h-5 w-5" />
-              </Button>
+            <Link
+              href="/jobs"
+              className={cn(
+                buttonVariants({ size: "lg" }),
+                "bg-primary hover:bg-primary/90 px-8 py-6 text-lg text-white",
+              )}
+            >
+              Browse Jobs <ChevronRight className="ml-2 h-5 w-5" />
             </Link>
           </motion.div>
 
@@ -156,13 +158,14 @@ const Hero = () => {
               <p className="text-muted-foreground mb-4 text-sm">
                 {card.description}
               </p>
-              <Link href={card.link}>
-                <Button
-                  variant="link"
-                  className="text-primary flex h-auto items-center gap-1 p-0 transition-all hover:gap-2"
-                >
-                  {card.linkText} <ChevronRight className="h-4 w-4" />
-                </Button>
+              <Link
+                href={card.link}
+                className={cn(
+                  buttonVariants({ variant: "link" }),
+                  "text-primary flex h-auto items-center gap-1 p-0 transition-all hover:gap-2",
+                )}
+              >
+                {card.linkText} <ChevronRight className="h-4 w-4" />
               </Link>
             </motion.div>
           ))}

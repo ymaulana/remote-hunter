@@ -1,36 +1,61 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { motion } from "framer-motion";
 import { useJobs, JobFilters } from "@/lib/hooks/useJobs";
 import SearchBar from "@/app/components/jobs/SearchBar";
 import FilterPanel from "@/app/components/jobs/FilterPanel";
 import JobCard from "@/app/components/jobs/JobCard";
 import { Loader2 } from "lucide-react";
+import { useSearchParams, useRouter } from "next/navigation";
 
-export default function JobsPage() {
+function JobsPageContent() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [filters, setFilters] = useState<JobFilters>({});
+
+  useEffect(() => {
+    const search = searchParams.get("search") || undefined;
+    const location = searchParams.get("location") || undefined;
+    const tagsParam = searchParams.get("tags");
+    const tags = tagsParam ? tagsParam.split(",") : undefined;
+
+    setFilters({
+      search,
+      location,
+      tags,
+    });
+  }, [searchParams]);
+
+  const updateUrl = (newFilters: JobFilters) => {
+    const params = new URLSearchParams();
+    if (newFilters.search) params.set("search", newFilters.search);
+    if (newFilters.location) params.set("location", newFilters.location);
+    if (newFilters.tags && newFilters.tags.length > 0)
+      params.set("tags", newFilters.tags.join(","));
+
+    router.push(`/jobs?${params.toString()}`, { scroll: false });
+  };
+
   const { data: jobs, isLoading, error } = useJobs(filters);
 
   const handleSearch = (search: string, location: string) => {
-    setFilters((prev) => ({
-      ...prev,
+    const newFilters = {
+      ...filters,
       search: search || undefined,
       location: location || undefined,
-    }));
+    };
+    setFilters(newFilters);
+    updateUrl(newFilters);
   };
 
-  const handleFilterChange = (newFilters: {
-    tags: string[];
-    salaryMin?: number;
-    salaryMax?: number;
-  }) => {
-    setFilters((prev) => ({
-      ...prev,
+  const handleFilterChange = (newFilters: { tags: string[] }) => {
+    const updatedFilters = {
+      ...filters,
       tags: newFilters.tags.length > 0 ? newFilters.tags : undefined,
-      salaryMin: newFilters.salaryMin,
-      salaryMax: newFilters.salaryMax,
-    }));
+    };
+    setFilters(updatedFilters);
+    updateUrl(updatedFilters);
   };
 
   return (
@@ -63,7 +88,10 @@ export default function JobsPage() {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
             {/* Filters Sidebar */}
             <aside className="lg:col-span-1">
-              <FilterPanel onFilterChange={handleFilterChange} />
+              <FilterPanel
+                onFilterChange={handleFilterChange}
+                initialFilters={filters}
+              />
             </aside>
 
             {/* Job Listings */}
@@ -119,5 +147,13 @@ export default function JobsPage() {
         </div>
       </section>
     </div>
+  );
+}
+
+export default function JobsPage() {
+  return (
+    <Suspense>
+      <JobsPageContent />
+    </Suspense>
   );
 }

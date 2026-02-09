@@ -1,15 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 
 interface FilterPanelProps {
-  onFilterChange: (filters: {
-    tags: string[];
-    salaryMin?: number;
-    salaryMax?: number;
-  }) => void;
+  onFilterChange: (filters: { tags: string[] }) => void;
+  initialFilters?: {
+    tags?: string[];
+  };
 }
 
 const popularTags = [
@@ -25,37 +24,36 @@ const popularTags = [
   "Entry Level",
 ];
 
-export default function FilterPanel({ onFilterChange }: FilterPanelProps) {
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
-  const [salaryMin, setSalaryMin] = useState<string>("");
-  const [salaryMax, setSalaryMax] = useState<string>("");
+export default function FilterPanel({
+  onFilterChange,
+  initialFilters,
+}: FilterPanelProps) {
+  const [selectedTags, setSelectedTags] = useState<string[]>(
+    initialFilters?.tags || [],
+  );
+
+  // Sync with initialFilters when they change (e.g. valid URL navigation)
+  useEffect(() => {
+    if (initialFilters) {
+      if (initialFilters.tags) setSelectedTags(initialFilters.tags);
+    }
+  }, [initialFilters]);
 
   const toggleTag = (tag: string) => {
     const newTags = selectedTags.includes(tag)
       ? selectedTags.filter((t) => t !== tag)
       : [...selectedTags, tag];
     setSelectedTags(newTags);
-    applyFilters(newTags, salaryMin, salaryMax);
-  };
-
-  const applyFilters = (tags: string[], min: string, max: string) => {
-    onFilterChange({
-      tags,
-      salaryMin: min ? parseInt(min) : undefined,
-      salaryMax: max ? parseInt(max) : undefined,
-    });
-  };
-
-  const handleSalaryChange = () => {
-    applyFilters(selectedTags, salaryMin, salaryMax);
+    onFilterChange({ tags: newTags });
   };
 
   const clearFilters = () => {
     setSelectedTags([]);
-    setSalaryMin("");
-    setSalaryMax("");
     onFilterChange({ tags: [] });
   };
+
+  // Combine popular tags with any selected tags that aren't in the list
+  const allDisplayTags = Array.from(new Set([...popularTags, ...selectedTags]));
 
   return (
     <motion.div
@@ -68,7 +66,7 @@ export default function FilterPanel({ onFilterChange }: FilterPanelProps) {
         <h3 className="text-foreground text-sm font-bold tracking-wider uppercase">
           Filters
         </h3>
-        {(selectedTags.length > 0 || salaryMin || salaryMax) && (
+        {selectedTags.length > 0 && (
           <button
             onClick={clearFilters}
             className="text-primary text-sm hover:underline"
@@ -82,7 +80,7 @@ export default function FilterPanel({ onFilterChange }: FilterPanelProps) {
       <div className="mb-6">
         <h4 className="text-foreground mb-3 text-sm font-medium">Tags</h4>
         <div className="flex flex-wrap gap-2">
-          {popularTags.map((tag) => (
+          {allDisplayTags.map((tag) => (
             <motion.button
               key={tag}
               whileHover={{ scale: 1.05 }}
@@ -100,41 +98,6 @@ export default function FilterPanel({ onFilterChange }: FilterPanelProps) {
               )}
             </motion.button>
           ))}
-        </div>
-      </div>
-
-      {/* Salary Range Filter */}
-      <div>
-        <h4 className="text-foreground mb-3 text-sm font-medium">
-          Salary Range (USD)
-        </h4>
-        <div className="space-y-3">
-          <div>
-            <label className="text-muted-foreground mb-1 block text-xs">
-              Minimum
-            </label>
-            <input
-              type="number"
-              value={salaryMin}
-              onChange={(e) => setSalaryMin(e.target.value)}
-              onBlur={handleSalaryChange}
-              placeholder="e.g. 50000"
-              className="bg-background text-foreground focus:ring-primary w-full rounded-lg border px-3 py-2 text-sm focus:ring-2 focus:outline-none"
-            />
-          </div>
-          <div>
-            <label className="text-muted-foreground mb-1 block text-xs">
-              Maximum
-            </label>
-            <input
-              type="number"
-              value={salaryMax}
-              onChange={(e) => setSalaryMax(e.target.value)}
-              onBlur={handleSalaryChange}
-              placeholder="e.g. 100000"
-              className="bg-background text-foreground focus:ring-primary w-full rounded-lg border px-3 py-2 text-sm focus:ring-2 focus:outline-none"
-            />
-          </div>
         </div>
       </div>
     </motion.div>

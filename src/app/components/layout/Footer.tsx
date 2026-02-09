@@ -2,19 +2,9 @@
 import { Github, Heart, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
 
 const Footer = () => {
-  const [year, setYear] = useState(new Date().getFullYear());
-
-  useEffect(() => {
-    const updateYear = () => {
-      setYear(new Date().getFullYear());
-    };
-    updateYear();
-    // const interval = setInterval(updateYear, 1000);
-    // return () => clearInterval(interval);
-  }, []);
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-secondary/50 border-border mt-20 border-t backdrop-blur-sm">
@@ -166,7 +156,8 @@ const Footer = () => {
 
         <div className="border-border mt-12 flex flex-col items-center justify-between border-t pt-8 md:flex-row">
           <p className="text-muted-foreground text-sm">
-            © <span>{year}</span> RemoteHunter. All rights reserved.
+            {/* © <span suppressHydrationWarning>{currentYear}</span> RemoteHunter. */}
+            All rights reserved.
           </p>
           <p className="text-muted-foreground mt-4 flex items-center text-sm md:mt-0">
             Made with <Heart className="mx-1 h-4 w-4 text-red-500" /> for remote

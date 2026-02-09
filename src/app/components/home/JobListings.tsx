@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 import { useJobs } from "@/lib/hooks/useJobs";
 import JobCard from "@/app/components/jobs/JobCard";
 import { ChevronRight } from "lucide-react";
-import { Button } from "@/app/components/ui/button";
+import { buttonVariants } from "@/app/components/ui/button";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 const JobListings = () => {
   const { data: jobs, isLoading } = useJobs();
-  console.log(jobs);
   const displayJobs = jobs?.slice(0, 6) || [];
 
   return (
@@ -36,10 +36,11 @@ const JobListings = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <Link href="/jobs">
-              <Button variant="outline" className="gap-1">
-                View All Jobs <ChevronRight className="h-4 w-4" />
-              </Button>
+            <Link
+              href="/jobs"
+              className={cn(buttonVariants({ variant: "outline" }), "gap-1")}
+            >
+              View All Jobs <ChevronRight className="h-4 w-4" />
             </Link>
           </motion.div>
         </div>

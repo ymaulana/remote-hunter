@@ -1,6 +1,7 @@
 import { Building2, MapPin, Users, ChevronRight } from "lucide-react";
-import { Button } from "@/app/components/ui/button";
+import { Button, buttonVariants } from "@/app/components/ui/button";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 const companies = [
   {
@@ -68,14 +69,15 @@ const CompanySpotlight = () => {
               talent
             </p>
           </div>
-          <Link href="/companies">
-            <Button
-              variant="outline"
-              className="appear-up gap-1"
-              style={{ "--index": "2" } as React.CSSProperties}
-            >
-              View All Companies <ChevronRight className="h-4 w-4" />
-            </Button>
+          <Link
+            href="/companies"
+            className={cn(
+              buttonVariants({ variant: "outline" }),
+              "appear-up gap-1",
+            )}
+            style={{ "--index": "2" } as React.CSSProperties}
+          >
+            View All Companies <ChevronRight className="h-4 w-4" />
           </Link>
         </div>
 

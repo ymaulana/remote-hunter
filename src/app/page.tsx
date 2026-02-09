@@ -5,7 +5,8 @@ import Hero from "./components/home/Hero";
 import JobListings from "./components/home/JobListings";
 import CategorySection from "./components/home/CategorySection";
 import CompanySpotlight from "./components/home/CompanySpotlight";
-import { Button } from "@/app/components/ui/button";
+import { buttonVariants } from "@/app/components/ui/button";
+import { cn } from "@/lib/utils";
 import { ChevronRight, MessageSquare, Users, Briefcase } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -171,18 +172,23 @@ export default function Home() {
                   transition={{ duration: 0.6, delay: 0.4 }}
                   className="flex flex-col gap-4 sm:flex-row"
                 >
-                  <Link href="/jobs">
-                    <Button
-                      size="lg"
-                      className="bg-primary hover:bg-primary/90 px-8 text-white"
-                    >
-                      Browse Jobs
-                    </Button>
+                  <Link
+                    href="/jobs"
+                    className={cn(
+                      buttonVariants({ size: "lg" }),
+                      "bg-primary hover:bg-primary/90 px-8 text-white",
+                    )}
+                  >
+                    Browse Jobs
                   </Link>
-                  <Link href="/auth/signup">
-                    <Button variant="outline" size="lg" className="gap-2 px-8">
-                      Create Account <ChevronRight className="h-4 w-4" />
-                    </Button>
+                  <Link
+                    href="/auth/signup"
+                    className={cn(
+                      buttonVariants({ variant: "outline", size: "lg" }),
+                      "gap-2 px-8",
+                    )}
+                  >
+                    Create Account <ChevronRight className="h-4 w-4" />
                   </Link>
                 </motion.div>
               </div>

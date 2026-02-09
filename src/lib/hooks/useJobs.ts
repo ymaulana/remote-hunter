@@ -6,8 +6,7 @@ export interface Job {
   title: string;
   company: string;
   location: string;
-  salaryMin: number | null;
-  salaryMax: number | null;
+  salary: string | null;
   currency: string;
   description: string;
   source: "INTERNAL" | "EXTERNAL";
@@ -25,8 +24,6 @@ export interface JobFilters {
   search?: string;
   location?: string;
   tags?: string[];
-  salaryMin?: number;
-  salaryMax?: number;
 }
 
 export function useJobs(filters?: JobFilters) {
@@ -52,13 +49,7 @@ export function useJobs(filters?: JobFilters) {
         query = query.contains("tags", filters.tags);
       }
 
-      if (filters?.salaryMin) {
-        query = query.gte("salaryMin", filters.salaryMin);
-      }
 
-      if (filters?.salaryMax) {
-        query = query.lte("salaryMax", filters.salaryMax);
-      }
 
       const { data, error } = await query;
 
