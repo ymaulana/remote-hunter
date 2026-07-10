@@ -1,7 +1,7 @@
 import { Building2, MapPin, Users, ChevronRight } from "lucide-react";
-import { Button, buttonVariants } from "@/app/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/utils";
 
 const companies = [
   {

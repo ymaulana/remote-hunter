@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Job } from "@/lib/hooks/useJobs";
+import { Job } from "@/components/hooks/useJobs";
 import { MapPin, DollarSign, Briefcase, ExternalLink } from "lucide-react";
 import Link from "next/link";
 

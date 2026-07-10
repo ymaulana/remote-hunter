@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { ChevronRight, Briefcase, Globe, Users } from "lucide-react";
-import { buttonVariants } from "@/app/components/ui/button";
-import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/utils/utils";
 import Link from "next/link";
 
 const Hero = () => {

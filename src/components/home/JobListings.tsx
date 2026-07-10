@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useJobs } from "@/lib/hooks/useJobs";
-import JobCard from "@/app/components/jobs/JobCard";
+import { useJobs } from "@/components/hooks/useJobs";
+import JobCard from "@/components/jobs/JobCard";
 import { ChevronRight } from "lucide-react";
-import { buttonVariants } from "@/app/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/utils";
 
 const JobListings = () => {
   const { data: jobs, isLoading } = useJobs();

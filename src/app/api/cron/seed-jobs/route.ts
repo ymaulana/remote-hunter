@@ -5,9 +5,9 @@ import { JobSource } from "@/generated/prisma/enums";
 
 import { Pool } from "pg";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { parseRelativeDate } from "@/lib/date-utils";
-import { cleanTags, extractKeywords } from "@/lib/tag-utils";
-import { detectCurrency } from "@/lib/currency-utils";
+import { parseRelativeDate } from "@/utils/date-utils";
+import { cleanTags, extractKeywords } from "@/utils/tag-utils";
+import { detectCurrency } from "@/utils/currency-utils";
 
 const connectionString = process.env.DIRECT_URL;
 
