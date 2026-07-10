@@ -44,12 +44,20 @@ model User {
 model Profile {
   id        String   @id @default(uuid())
   userId    String   @unique
-  user      User     @relation(fields: [userId], references: [id])
+ user      User     @relation(fields: [userId], references: [id])
+  
+  // Shared fields
   firstName String
   lastName  String
-  resumeUrl String?
   bio       String?
+  
+  // SEEKER specific fields
+  resumeUrl String?
   skills    String[]
+  
+  // RECRUITER specific fields
+  companyName    String?
+  companyWebsite String?
 }
 
 model Job {
