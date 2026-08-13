@@ -1,7 +1,8 @@
 import { createServerClient } from '@supabase/ssr'
+import { type User } from '@supabase/supabase-js';
 import { NextResponse, type NextRequest } from 'next/server'
 
-export async function updateSession(request: NextRequest) {
+export async function updateSession(request: NextRequest): Promise<{ response: NextResponse; user: User | null }> {
     let supabaseResponse = NextResponse.next({
         request,
     })
@@ -30,12 +31,5 @@ export async function updateSession(request: NextRequest) {
     // This refreshes the session if it's expired - crucial for SSR
     const { data: { user } } = await supabase.auth.getUser()
 
-    // If no user and trying to access a protected route, redirect to login
-    if (!user && request.nextUrl.pathname.startsWith('/dashboard')) {
-        const url = request.nextUrl.clone()
-        url.pathname = '/auth/login'
-        return NextResponse.redirect(url)
-    }
-
-    return supabaseResponse
+    return { response: supabaseResponse, user: user }
 }

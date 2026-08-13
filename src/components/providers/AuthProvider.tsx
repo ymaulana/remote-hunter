@@ -1,9 +1,9 @@
 "use client";
 
-import { createContext, useContext, useEffect, useMemo, useState } from "react";
-import { createBrowserClient } from "@supabase/ssr";
+import { createContext, useContext, useEffect, useState } from "react";
 import type { Session, User, SupabaseClient } from "@supabase/supabase-js";
 import { useRouter } from "next/navigation";
+import { supabase } from "@/utils/supabase/client";
 
 type AuthContextType = {
   user: User | null;
@@ -19,15 +19,6 @@ export default function AuthProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const supabase = useMemo(
-    () =>
-      createBrowserClient(
-        process.env.NEXT_PUBLIC_SUPABASE_URL!,
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-      ),
-    [],
-  );
-
   const [session, setSession] = useState<Session | null>(null);
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -58,7 +49,7 @@ export default function AuthProvider({
     return () => {
       subscription.unsubscribe();
     };
-  }, [supabase]);
+  }, [router]);
 
   return (
     <AuthContext.Provider value={{ user, session, supabase, isLoading }}>

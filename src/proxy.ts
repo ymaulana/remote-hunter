@@ -1,6 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { updateSession } from "@/utils/supabase/middleware";
-import { createServerClient } from "@supabase/ssr";
+import { updateSession } from "@/utils/supabase/session";
 
 const publicPaths = [
     "/",
@@ -9,26 +8,32 @@ const publicPaths = [
     "/auth/login",
     "/auth/register",
     "/auth/forgot-password",
-    "/auth/update-password",
     "/auth/callback",
     "/auth/verify-email",
-    "/onboarding",
 ];
 
-// /profile is accessible to ALL authenticated users (both roles)
-const protectedPaths = ["/profile", "/settings"];
+// Guest-only pages: authenticated users are redirected away.
+// /auth/update-password is NOT here — it is protected (guests blocked) instead.
+const authOnlyPaths = ["/auth/login", "/auth/register", "/auth/forgot-password"];
 
 const seekerOnlyPaths = ["/applications", "/saved-jobs"];
 const recruiterOnlyPaths = ["/jobs/post", "/candidates"];
 const adminOnlyPaths = ["/admin"];
 
-// Profile is accessible to all authenticated users (role-specific content rendered server-side)
-// So we don't need to add it to seekerOnlyPaths or recruiterOnlyPaths
-
 function isPublicPath(pathname: string): boolean {
     return publicPaths.some(
         (path) => pathname === path || pathname.startsWith(`${path}/`)
     );
+}
+
+function isAuthOnlyPath(pathname: string): boolean {
+    return authOnlyPaths.some(
+        (path) => pathname === path || pathname.startsWith(`${path}/`)
+    );
+}
+
+function getRoleHome(role: string | undefined): string {
+    return role?.toUpperCase() === "RECRUITER" ? "/hire" : "/jobs";
 }
 
 function isJobDetailPath(pathname: string): boolean {
@@ -40,32 +45,22 @@ export async function proxy(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
     // Always refresh session first (even for public paths)
-    const response = await updateSession(request);
+    const { response, user } = await updateSession(request);
 
-    // Allow public paths and job detail pages
-    if (isPublicPath(pathname) || isJobDetailPath(pathname)) {
-        return response;
+    // Authenticated users visiting guest-only auth pages → role home
+    if (user && isAuthOnlyPath(pathname)) {
+        const url = request.nextUrl.clone();
+        url.pathname = getRoleHome(user.user_metadata?.role as string);
+        return NextResponse.redirect(url);
     }
 
-    // Get user from Supabase Auth (Edge-compatible, no Prisma)
-    const supabase = createServerClient(
-        process.env.NEXT_PUBLIC_SUPABASE_URL!,
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-        {
-            cookies: {
-                getAll() {
-                    return request.cookies.getAll();
-                },
-                setAll() {
-                    // cookies are already handled by updateSession
-                },
-            },
-        }
-    );
-
-    const {
-        data: { user },
-    } = await supabase.auth.getUser();
+    // Allow public paths and job detail pages (guests AND users)
+    if (
+        (isPublicPath(pathname) && pathname !== "/jobs/post") ||
+        isJobDetailPath(pathname)
+    ) {
+        return response;
+    }
 
     // No user → redirect to login with return URL
     if (!user) {
@@ -105,7 +100,7 @@ export async function proxy(request: NextRequest) {
     if (accessDenied) {
         // Redirect to the user's home page based on role
         const url = request.nextUrl.clone();
-        url.pathname = isRecruiter ? "/hire" : "/jobs";
+        url.pathname = getRoleHome(role);
         return NextResponse.redirect(url);
     }
 
