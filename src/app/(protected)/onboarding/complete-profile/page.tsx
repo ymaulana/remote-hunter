@@ -44,7 +44,8 @@ export default function CompleteProfile() {
                 Welcome to RemoteHunter! 🎉
               </h1>
               <p className="text-muted-foreground">
-                You're almost there. Tell us how you plan to use the platform.
+                You&apos;re almost there. Tell us how you plan to use the
+                platform.
               </p>
             </div>
 
