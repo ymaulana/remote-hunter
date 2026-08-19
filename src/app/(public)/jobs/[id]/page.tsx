@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import ClientDate from "@/components/ui/ClientDate";
+import { ApplyDialog } from "@/components/jobs/ApplyDialog";
 
 export default function JobDetailPage() {
   const params = useParams();
@@ -179,9 +180,7 @@ export default function JobDetailPage() {
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 ) : (
-                  <button className="bg-primary hover:bg-primary/90 w-full rounded-lg px-6 py-3 font-semibold text-white transition-colors">
-                    Apply Now
-                  </button>
+                  <ApplyDialog jobId={job.id} jobTitle={job.title} />
                 )}
                 <p className="text-muted-foreground mt-4 text-xs">
                   By applying, you agree to our terms and conditions.
