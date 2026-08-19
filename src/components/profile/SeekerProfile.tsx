@@ -1,14 +1,8 @@
 "use client";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import ClientDate from "@/components/ui/ClientDate";
+import { useCallback, useState } from "react";
+import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 import {
   Mail,
   MapPin,
@@ -20,141 +14,41 @@ import {
   CheckCircle2,
   Clock,
   XCircle,
+  Upload,
+  Loader2,
 } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import ClientDate from "@/components/ui/ClientDate";
+import { supabase } from "@/utils/supabase/client";
+import { saveResume } from "@/app/(protected)/profile/actions";
+import {
+  buildResumeStoragePath,
+  isAllowedResumeFile,
+} from "@/utils/resume-utils";
 
-// ============================================================
-// Mock data for SEEKER role (based on Prisma schema)
-// ============================================================
-const mockSeekerUser = {
-  id: "usr_123456789",
-  email: "john.doe@example.com",
-  role: "SEEKER" as const,
-  createdAt: new Date("2024-01-15T10:30:00Z"),
-  profile: {
-    id: "prof_123456789",
-    firstName: "John",
-    lastName: "Doe",
-    resumeUrl: "https://example.com/resume/john-doe.pdf",
-    bio: "Passionate software engineer with 3+ years of experience building scalable web applications. Love working with modern technologies and solving complex problems. Always eager to learn and grow in the tech industry.",
-    skills: [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "Python",
-      "PostgreSQL",
-      "AWS",
-      "Docker",
-      "GraphQL",
-    ],
-  },
-};
+export interface SeekerApplication {
+  id: string;
+  status: "PENDING" | "REVIEWED" | "REJECTED" | "ACCEPTED";
+  appliedAt: Date;
+  coverLetter: string | null;
+  job: {
+    id: string;
+    title: string;
+    company: string;
+    location: string;
+    salary: string | null;
+    tags: string[];
+    externalLink: string | null;
+  };
+}
 
-const mockApplications = [
-  {
-    id: "app_001",
-    jobId: "job_001",
-    job: {
-      id: "job_001",
-      title: "Senior Frontend Engineer",
-      company: "TechCorp Inc.",
-      location: "Remote - US",
-      salary: "$120,000 - $150,000",
-      currency: "USD",
-      description: "We are looking for a Senior Frontend Engineer...",
-      source: "INTERNAL" as const,
-      externalId: null,
-      externalLink: null,
-      applyOptions: null,
-      postedBy: null,
-      createdAt: new Date("2024-02-01T09:00:00Z"),
-      postedAt: new Date("2024-02-01T09:00:00Z"),
-      updatedAt: new Date("2024-02-01T09:00:00Z"),
-      tags: ["Frontend", "React", "TypeScript"],
-    },
-    status: "REVIEWED" as const,
-    appliedAt: new Date("2024-02-02T14:30:00Z"),
-    coverLetter: "I am excited to apply for this position...",
-  },
-  {
-    id: "app_002",
-    jobId: "job_002",
-    job: {
-      id: "job_002",
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      location: "Remote - Worldwide",
-      salary: "$90,000 - $120,000",
-      currency: "USD",
-      description: "Join our fast-growing startup...",
-      source: "EXTERNAL" as const,
-      externalId: "ext_123",
-      externalLink: "https://example.com/jobs/123",
-      applyOptions: null,
-      postedBy: null,
-      createdAt: new Date("2024-02-05T11:00:00Z"),
-      postedAt: new Date("2024-02-05T11:00:00Z"),
-      updatedAt: new Date("2024-02-05T11:00:00Z"),
-      tags: ["Full Stack", "Node.js", "React"],
-    },
-    status: "PENDING" as const,
-    appliedAt: new Date("2024-02-06T10:15:00Z"),
-    coverLetter: null,
-  },
-  {
-    id: "app_003",
-    jobId: "job_003",
-    job: {
-      id: "job_003",
-      title: "Backend Engineer",
-      company: "CloudScale Systems",
-      location: "Remote - Europe",
-      salary: "€80,000 - €100,000",
-      currency: "EUR",
-      description: "Build scalable backend services...",
-      source: "INTERNAL" as const,
-      externalId: null,
-      externalLink: null,
-      applyOptions: null,
-      postedBy: null,
-      createdAt: new Date("2024-01-20T08:00:00Z"),
-      postedAt: new Date("2024-01-20T08:00:00Z"),
-      updatedAt: new Date("2024-01-20T08:00:00Z"),
-      tags: ["Backend", "Python", "PostgreSQL"],
-    },
-    status: "ACCEPTED" as const,
-    appliedAt: new Date("2024-01-21T16:45:00Z"),
-    coverLetter: "I believe my skills align perfectly...",
-  },
-  {
-    id: "app_004",
-    jobId: "job_004",
-    job: {
-      id: "job_004",
-      title: "DevOps Engineer",
-      company: "InfraCo",
-      location: "Remote - Americas",
-      salary: "$110,000 - $140,000",
-      currency: "USD",
-      description: "Manage cloud infrastructure...",
-      source: "INTERNAL" as const,
-      externalId: null,
-      externalLink: null,
-      applyOptions: null,
-      postedBy: null,
-      createdAt: new Date("2024-01-10T07:30:00Z"),
-      postedAt: new Date("2024-01-10T07:30:00Z"),
-      updatedAt: new Date("2024-01-10T07:30:00Z"),
-      tags: ["DevOps", "AWS", "Docker"],
-    },
-    status: "REJECTED" as const,
-    appliedAt: new Date("2024-01-11T09:00:00Z"),
-    coverLetter: null,
-  },
-];
-
-// ============================================================
-// Helper functions
-// ============================================================
 const getStatusIcon = (status: string) => {
   switch (status) {
     case "PENDING":
@@ -185,11 +79,61 @@ const getStatusBadgeClass = (status: string) => {
   }
 };
 
-// ============================================================
-// Seeker Profile Component
-// ============================================================
-export function SeekerProfile() {
-  const user = mockSeekerUser;
+export function SeekerProfile({
+  email,
+  profile,
+  resumeUrl,
+  applications,
+}: {
+  email: string;
+  profile: {
+    firstName: string;
+    lastName: string;
+    bio: string | null;
+    skills: string[];
+    resumeStoragePath: string | null;
+  } | null;
+  resumeUrl: string | null;
+  applications: SeekerApplication[];
+}) {
+  const router = useRouter();
+  const [uploading, setUploading] = useState(false);
+
+  const handleUpload = useCallback(
+    async (file: File) => {
+      if (!isAllowedResumeFile(file)) {
+        toast.error("Resume must be a PDF/DOC/DOCX under 5MB");
+        return;
+      }
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+      if (!user) return;
+      setUploading(true);
+      try {
+        const storagePath = buildResumeStoragePath(user.id, file.name);
+        const { error: uploadError } = await supabase.storage
+          .from("resumes")
+          .upload(storagePath, file, { upsert: true });
+        if (uploadError) throw uploadError;
+
+        const result = await saveResume(storagePath);
+        if (result?.error) throw new Error(result.error);
+
+        toast.success("Resume uploaded");
+        router.refresh();
+      } catch (err) {
+        toast.error(err instanceof Error ? err.message : "Upload failed");
+      } finally {
+        setUploading(false);
+      }
+    },
+    [router]
+  );
+
+  const firstName = profile?.firstName ?? "";
+  const lastName = profile?.lastName ?? "";
+  const initials = (firstName[0] ?? "") + (lastName[0] ?? "");
 
   return (
     <div className="from-background to-secondary/20 min-h-screen bg-linear-to-b">
@@ -205,8 +149,7 @@ export function SeekerProfile() {
             {/* Avatar */}
             <div className="relative">
               <div className="from-primary to-primary/70 text-primary-foreground ring-background flex h-32 w-32 items-center justify-center rounded-2xl bg-linear-to-br text-4xl font-bold shadow-lg ring-4">
-                {user.profile.firstName[0]}
-                {user.profile.lastName[0]}
+                {initials || "U"}
               </div>
               <div className="ring-background absolute -right-1 -bottom-1 rounded-full bg-green-500 p-2 ring-4" />
             </div>
@@ -214,17 +157,13 @@ export function SeekerProfile() {
             {/* Name & Title */}
             <div className="flex-1 pb-2">
               <h1 className="text-foreground text-3xl font-bold">
-                {user.profile.firstName} {user.profile.lastName}
+                {firstName} {lastName}
               </h1>
-              <p className="text-muted-foreground">{user.email}</p>
+              <p className="text-muted-foreground">{email}</p>
               <div className="text-muted-foreground mt-2 flex flex-wrap items-center gap-4 text-sm">
                 <span className="flex items-center gap-1.5">
-                  <Calendar className="h-4 w-4" />
-                  Member since <ClientDate date={user.createdAt} />
-                </span>
-                <span className="flex items-center gap-1.5">
                   <Award className="h-4 w-4" />
-                  {user.role}
+                  SEEKER
                 </span>
               </div>
             </div>
@@ -254,7 +193,7 @@ export function SeekerProfile() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm">
-                  {user.profile.bio}
+                  {profile?.bio || "No bio added yet."}
                 </p>
               </CardContent>
             </Card>
@@ -264,12 +203,12 @@ export function SeekerProfile() {
               <CardHeader>
                 <CardTitle className="text-lg">Skills</CardTitle>
                 <CardDescription>
-                  {user.profile.skills.length} technical skills
+                  {profile?.skills.length ?? 0} technical skills
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {user.profile.skills.map((skill) => (
+                  {(profile?.skills ?? []).map((skill) => (
                     <span
                       key={skill}
                       className="bg-secondary text-secondary-foreground hover:bg-secondary/80 inline-flex items-center rounded-full px-3 py-1 text-xs font-medium transition-colors"
@@ -282,26 +221,66 @@ export function SeekerProfile() {
             </Card>
 
             {/* Resume Card */}
-            {user.profile.resumeUrl && (
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">Resume</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <Button variant="outline" className="w-full" asChild>
-                    <a
-                      href={user.profile.resumeUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FileText className="mr-2 h-4 w-4" />
-                      View Resume
-                      <ExternalLink className="ml-2 h-3 w-3" />
-                    </a>
-                  </Button>
-                </CardContent>
-              </Card>
-            )}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Resume</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {resumeUrl ? (
+                  <div className="flex flex-col gap-2">
+                    <Button variant="outline" className="w-full" asChild>
+                      <a
+                        href={resumeUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FileText className="mr-2 h-4 w-4" />
+                        View Resume
+                        <ExternalLink className="ml-2 h-3 w-3" />
+                      </a>
+                    </Button>
+                    <label className="cursor-pointer text-center text-xs font-medium text-primary">
+                      Replace resume
+                      <input
+                        type="file"
+                        accept=".pdf,.doc,.docx"
+                        className="hidden"
+                        disabled={uploading}
+                        onChange={(e) => {
+                          const file = e.target.files?.[0];
+                          if (file) handleUpload(file);
+                          e.target.value = "";
+                        }}
+                      />
+                    </label>
+                  </div>
+                ) : (
+                  <label className="flex cursor-pointer flex-col items-center justify-center gap-2 rounded-lg border-2 border-dashed p-6 text-center">
+                    {uploading ? (
+                      <Loader2 className="h-6 w-6 animate-spin" />
+                    ) : (
+                      <Upload className="h-6 w-6 text-muted-foreground" />
+                    )}
+                    <span className="text-sm font-medium">
+                      {uploading
+                        ? "Uploading..."
+                        : "Upload resume (PDF, DOC, DOCX, ≤ 5MB)"}
+                    </span>
+                    <input
+                      type="file"
+                      accept=".pdf,.doc,.docx"
+                      className="hidden"
+                      disabled={uploading}
+                      onChange={(e) => {
+                        const file = e.target.files?.[0];
+                        if (file) handleUpload(file);
+                        e.target.value = "";
+                      }}
+                    />
+                  </label>
+                )}
+              </CardContent>
+            </Card>
           </div>
 
           {/* Right Column - Applications */}
@@ -317,78 +296,79 @@ export function SeekerProfile() {
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="bg-primary/10 text-primary rounded-full px-3 py-1 text-sm font-medium">
-                      {mockApplications.length} Total
+                      {applications.length} Total
                     </span>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <div className="space-y-4">
-                  {mockApplications.map((application) => (
-                    <div
-                      key={application.id}
-                      className="group bg-card flex flex-col gap-4 rounded-xl border p-4 transition-all hover:shadow-md md:flex-row md:items-center md:justify-between"
-                    >
-                      <div className="flex-1 space-y-2">
-                        <div className="flex items-center gap-2">
-                          <h3 className="text-foreground font-semibold">
-                            {application.job.title}
-                          </h3>
-                          <span
-                            className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium ${getStatusBadgeClass(application.status)}`}
-                          >
-                            {getStatusIcon(application.status)}
-                            {application.status}
-                          </span>
-                        </div>
-                        <div className="text-muted-foreground flex flex-wrap items-center gap-4 text-sm">
-                          <span className="flex items-center gap-1.5">
-                            <Briefcase className="h-3.5 w-3.5" />
-                            {application.job.company}
-                          </span>
-                          <span className="flex items-center gap-1.5">
-                            <MapPin className="h-3.5 w-3.5" />
-                            {application.job.location}
-                          </span>
-                          {application.job.salary && (
-                            <span>{application.job.salary}</span>
-                          )}
-                        </div>
-                        <div className="flex flex-wrap items-center gap-2 pt-1">
-                          {application.job.tags.map((tag) => (
+                {applications.length === 0 ? (
+                  <p className="text-muted-foreground py-6 text-center text-sm">
+                    You haven&apos;t applied to any jobs yet.
+                  </p>
+                ) : (
+                  <div className="space-y-4">
+                    {applications.map((application) => (
+                      <div
+                        key={application.id}
+                        className="group bg-card flex flex-col gap-4 rounded-xl border p-4 transition-all hover:shadow-md md:flex-row md:items-center md:justify-between"
+                      >
+                        <div className="flex-1 space-y-2">
+                          <div className="flex items-center gap-2">
+                            <h3 className="text-foreground font-semibold">
+                              {application.job.title}
+                            </h3>
                             <span
-                              key={tag}
-                              className="bg-secondary/50 text-secondary-foreground rounded-md px-2 py-0.5 text-xs"
+                              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium ${getStatusBadgeClass(application.status)}`}
                             >
-                              {tag}
+                              {getStatusIcon(application.status)}
+                              {application.status}
                             </span>
-                          ))}
-                        </div>
-                        <div className="text-muted-foreground flex items-center gap-4 pt-2 text-xs">
-                          <span>
-                            Applied: <ClientDate date={application.appliedAt} />
-                          </span>
-                          {application.job.externalLink && (
-                            <a
-                              href={application.job.externalLink}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-primary flex items-center gap-1 hover:underline"
-                            >
-                              View Job
-                              <ExternalLink className="h-3 w-3" />
-                            </a>
-                          )}
+                          </div>
+                          <div className="text-muted-foreground flex flex-wrap items-center gap-4 text-sm">
+                            <span className="flex items-center gap-1.5">
+                              <Briefcase className="h-3.5 w-3.5" />
+                              {application.job.company}
+                            </span>
+                            <span className="flex items-center gap-1.5">
+                              <MapPin className="h-3.5 w-3.5" />
+                              {application.job.location}
+                            </span>
+                            {application.job.salary && (
+                              <span>{application.job.salary}</span>
+                            )}
+                          </div>
+                          <div className="flex flex-wrap items-center gap-2 pt-1">
+                            {application.job.tags.map((tag) => (
+                              <span
+                                key={tag}
+                                className="bg-secondary/50 text-secondary-foreground rounded-md px-2 py-0.5 text-xs"
+                              >
+                                {tag}
+                              </span>
+                            ))}
+                          </div>
+                          <div className="text-muted-foreground flex items-center gap-4 pt-2 text-xs">
+                            <span>
+                              Applied: <ClientDate date={application.appliedAt} />
+                            </span>
+                            {application.job.externalLink && (
+                              <a
+                                href={application.job.externalLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-primary flex items-center gap-1 hover:underline"
+                              >
+                                View Job
+                                <ExternalLink className="h-3 w-3" />
+                              </a>
+                            )}
+                          </div>
                         </div>
                       </div>
-                      <div className="flex gap-2 md:flex-col md:items-end">
-                        <Button variant="outline" size="sm">
-                          View Details
-                        </Button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                )}
               </CardContent>
             </Card>
           </div>

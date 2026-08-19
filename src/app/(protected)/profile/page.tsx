@@ -1,5 +1,5 @@
-import { createServerClient } from "@supabase/ssr";
-import { cookies } from "next/headers";
+import { createClient } from "@/utils/supabase/server";
+import { prisma } from "@/utils/prisma";
 import { SeekerProfile } from "@/components/profile/SeekerProfile";
 import { RecruiterProfile } from "@/components/profile/RecruiterProfile";
 
@@ -9,25 +9,7 @@ import { RecruiterProfile } from "@/components/profile/RecruiterProfile";
  * - RECRUITER → Renders RecruiterProfile
  */
 export default async function ProfilePage() {
-  const cookieStore = await cookies();
-
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        getAll() {
-          return cookieStore.getAll();
-        },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value }) =>
-            cookieStore.set(name, value)
-          );
-        },
-      },
-    }
-  );
-
+  const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
@@ -43,5 +25,29 @@ export default async function ProfilePage() {
     return <RecruiterProfile />;
   }
 
-  return <SeekerProfile />;
+  const [profile, applications] = await Promise.all([
+    prisma.profile.findUnique({ where: { userId: user.id } }),
+    prisma.application.findMany({
+      where: { userId: user.id },
+      include: { job: true },
+      orderBy: { appliedAt: "desc" },
+    }),
+  ]);
+
+  let resumeUrl: string | null = null;
+  if (profile?.resumeStoragePath) {
+    const { data } = await supabase.storage
+      .from("resumes")
+      .createSignedUrl(profile.resumeStoragePath, 3600);
+    resumeUrl = data?.signedUrl ?? null;
+  }
+
+  return (
+    <SeekerProfile
+      email={user.email ?? ""}
+      profile={profile}
+      resumeUrl={resumeUrl}
+      applications={applications}
+    />
+  );
 }
