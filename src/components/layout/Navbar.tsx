@@ -202,7 +202,7 @@ const Navbar = ({ variant }: NavbarProps) => {
       <div className="container mx-auto flex items-center justify-between px-6">
         <div className="text-foreground flex items-center gap-2">
           <Link
-            href={user && isRecruiter ? "/hire" : "/"}
+            href={user && isRecruiter ? "/profile" : "/"}
             className="group flex items-center gap-3"
           >
             <Image
