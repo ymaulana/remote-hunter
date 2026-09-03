@@ -41,6 +41,10 @@ function isJobDetailPath(pathname: string): boolean {
     return /^\/jobs\/[^/]+$/.test(pathname) && pathname !== "/jobs/post";
 }
 
+function isJobEditPath(pathname: string): boolean {
+    return /^\/jobs\/[^/]+\/edit$/.test(pathname);
+}
+
 export async function proxy(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
@@ -55,8 +59,9 @@ export async function proxy(request: NextRequest) {
     }
 
     // Allow public paths and job detail pages (guests AND users)
+    // /jobs/:id/edit is recruiter-only — must not be treated as public
     if (
-        (isPublicPath(pathname) && pathname !== "/jobs/post") ||
+        (isPublicPath(pathname) && pathname !== "/jobs/post" && !isJobEditPath(pathname)) ||
         isJobDetailPath(pathname)
     ) {
         return response;
@@ -95,6 +100,7 @@ export async function proxy(request: NextRequest) {
         (recruiterOnlyPaths.some((p) => pathname.startsWith(p)) &&
             !isRecruiter &&
             !isAdmin) ||
+        (isJobEditPath(pathname) && !isRecruiter && !isAdmin) ||
         (adminOnlyPaths.some((p) => pathname.startsWith(p)) && !isAdmin);
 
     if (accessDenied) {
