@@ -1,14 +1,20 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 import {
   Briefcase,
   Building,
   CheckCircle2,
   Clock,
   Globe,
+  Loader2,
   Mail,
   MapPin,
+  Pencil,
+  Trash2,
   Users,
 } from "lucide-react";
 import {
@@ -19,8 +25,17 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import ClientDate from "@/components/ui/ClientDate";
 import type { RecruiterAnalytics } from "@/utils/recruiter-analytics";
+import { deleteJob } from "@/app/(protected)/jobs/actions";
 
 export interface RecruiterPostedJob {
   id: string;
@@ -57,9 +72,29 @@ export function RecruiterProfile({
   const companyWebsite = profile?.companyWebsite ?? null;
   const bio = profile?.bio ?? null;
 
+  const router = useRouter();
+  const [deleteTarget, setDeleteTarget] = useState<RecruiterPostedJob | null>(null);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+
   const maxDaily = Math.max(...analytics.last14Days.map((d) => d.count), 1);
   const pct = (count: number, total: number) =>
     total === 0 ? 0 : Math.round((count / total) * 100);
+
+  const handleDelete = async () => {
+    if (!deleteTarget) return;
+    setDeletingId(deleteTarget.id);
+    const res = await deleteJob(deleteTarget.id);
+    setDeletingId(null);
+    if (res?.error) {
+      if (res.error === "NOT_FOUND") toast.error("Job not found");
+      else if (res.error === "FORBIDDEN") toast.error("You don't have permission");
+      else toast.error("Failed to delete job");
+      return;
+    }
+    toast.success("Job deleted");
+    setDeleteTarget(null);
+    router.refresh();
+  };
 
   return (
     <div className="from-background to-secondary/20 min-h-screen bg-linear-to-b">
@@ -242,8 +277,9 @@ export function RecruiterProfile({
                     </Button>
                   </div>
                 ) : (
-                  <div className="space-y-4">
-                    {postedJobs.map((job) => (
+                  <>
+                    <div className="space-y-4">
+                      {postedJobs.map((job) => (
                       <div
                         key={job.id}
                         className="group bg-card flex flex-col gap-4 rounded-xl border p-4 transition-all hover:shadow-md md:flex-row md:items-center md:justify-between"
@@ -286,9 +322,63 @@ export function RecruiterProfile({
                             </span>
                           </div>
                         </div>
+                        <div className="flex shrink-0 items-center gap-2 self-start md:self-center">
+                          <Button variant="outline" size="sm" asChild>
+                            <Link href={`/jobs/${job.id}/edit`}>
+                              <Pencil className="h-3.5 w-3.5" />
+                              Edit
+                            </Link>
+                          </Button>
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => setDeleteTarget(job)}
+                            disabled={deletingId === job.id}
+                            className="text-destructive hover:text-destructive"
+                          >
+                            {deletingId === job.id ? (
+                              <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                            ) : (
+                              <Trash2 className="h-3.5 w-3.5" />
+                            )}
+                            Delete
+                          </Button>
+                        </div>
                       </div>
                     ))}
                   </div>
+
+                    <Dialog open={!!deleteTarget} onOpenChange={(open) => !open && setDeleteTarget(null)}>
+                      <DialogContent>
+                        <DialogHeader>
+                          <DialogTitle>Delete job?</DialogTitle>
+                          <DialogDescription>
+                            {deleteTarget
+                              ? `“${deleteTarget.title}” and its ${deleteTarget._count.applications} application(s) will be permanently removed. This cannot be undone.`
+                              : "This action cannot be undone."}
+                          </DialogDescription>
+                        </DialogHeader>
+                        <DialogFooter>
+                          <Button variant="outline" onClick={() => setDeleteTarget(null)} disabled={!!deletingId}>
+                            Cancel
+                          </Button>
+                          <Button
+                            variant="destructive"
+                            onClick={handleDelete}
+                            disabled={!!deletingId}
+                          >
+                            {deletingId ? (
+                              <>
+                                <Loader2 className="mr-2 h-4 w-4 animate-spin" /> Deleting...
+                              </>
+                            ) : (
+                              "Delete job"
+                            )}
+                          </Button>
+                        </DialogFooter>
+                      </DialogContent>
+                    </Dialog>
+                  </>
                 )}
               </CardContent>
             </Card>
