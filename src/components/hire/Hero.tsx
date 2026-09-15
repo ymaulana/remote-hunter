@@ -115,7 +115,7 @@ const Hero = ({ isRecruiter, isAuthenticated }: HeroProps) => {
             <Link
               href={
                 isRecruiter
-                  ? "/jobs/post"
+                  ? "/dashboard/recruiter/jobs/new"
                   : isAuthenticated && !isRecruiter
                     ? "/profile"
                     : "/auth/login"

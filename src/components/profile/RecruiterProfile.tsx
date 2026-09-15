@@ -35,7 +35,7 @@ import {
 } from "@/components/ui/dialog";
 import ClientDate from "@/components/ui/ClientDate";
 import type { RecruiterAnalytics } from "@/utils/recruiter-analytics";
-import { deleteJob } from "@/app/(protected)/jobs/actions";
+import { deleteJob } from "@/app/(protected)/dashboard/recruiter/jobs/actions";
 
 export interface RecruiterPostedJob {
   id: string;
@@ -259,7 +259,7 @@ export function RecruiterProfile({
                     <CardDescription>Manage your job postings and review applicants</CardDescription>
                   </div>
                   <Button size="sm" asChild>
-                    <Link href="/jobs/post">
+                    <Link href="/dashboard/recruiter/jobs/new">
                       <Briefcase className="mr-2 h-4 w-4" />
                       Post New Job
                     </Link>
@@ -273,7 +273,7 @@ export function RecruiterProfile({
                       You haven&apos;t posted any jobs yet
                     </p>
                     <Button asChild>
-                      <Link href="/jobs/post">Post New Job</Link>
+                      <Link href="/dashboard/recruiter/jobs/new">Post New Job</Link>
                     </Button>
                   </div>
                 ) : (
@@ -324,7 +324,7 @@ export function RecruiterProfile({
                         </div>
                         <div className="flex shrink-0 items-center gap-2 self-start md:self-center">
                           <Button variant="outline" size="sm" asChild>
-                            <Link href={`/jobs/${job.id}/edit`}>
+                            <Link href={`/dashboard/recruiter/jobs/${job.id}/edit`}>
                               <Pencil className="h-3.5 w-3.5" />
                               Edit
                             </Link>
