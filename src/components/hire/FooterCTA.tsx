@@ -37,7 +37,7 @@ const FooterCTA = ({ isRecruiter, isAuthenticated }: FooterCTAProps) => {
               <Link
                 href={
                   isRecruiter
-                    ? "/jobs/post"
+                    ? "/dashboard/recruiter/jobs/new"
                     : isAuthenticated && !isRecruiter
                       ? "/profile"
                       : "/auth/login"

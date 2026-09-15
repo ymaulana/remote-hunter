@@ -150,7 +150,7 @@ const Navbar = ({ variant }: NavbarProps) => {
             {userDisplayName}
           </Link>
           <Link
-            href="/jobs/post"
+            href="/dashboard/recruiter/jobs/new"
             className={cn(
               buttonVariants({ size: "sm" }),
               "bg-primary hover:bg-primary/90 rounded-full px-6 text-white shadow-md transition-all hover:shadow-lg",
