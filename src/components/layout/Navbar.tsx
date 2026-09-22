@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { toast } from "sonner";
 
-type NavbarVariant = "default" | "hire" | "auth" | "profile";
+type NavbarVariant = "default" | "hire" | "auth" | "profile" | "recruiter";
 
 interface NavbarProps {
   variant?: NavbarVariant;
@@ -50,6 +50,14 @@ const VARIANT_CONFIGS: Record<
     menuItems: [],
     showAuthButtons: true,
   },
+  recruiter: {
+    menuItems: [
+      { href: "/profile", label: "My Jobs" },
+      { href: "/post-job", label: "Post a Job" },
+      { href: "/candidates", label: "Candidates" },
+    ],
+    showAuthButtons: true,
+  },
   auth: {
     menuItems: [],
     showAuthButtons: false,
@@ -58,7 +66,6 @@ const VARIANT_CONFIGS: Record<
 
 const Navbar = ({ variant }: NavbarProps) => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
   const { user, supabase } = useAuth();
 
@@ -72,7 +79,10 @@ const Navbar = ({ variant }: NavbarProps) => {
         ? "hire"
         : pathname?.startsWith("/profile")
           ? "profile"
-          : "default");
+          : // Recruiter-only routes (guarded by proxy.ts) get the recruiter navbar
+            pathname?.startsWith("/post-job") || pathname?.startsWith("/candidates")
+            ? "recruiter"
+            : "default");
 
   const config = VARIANT_CONFIGS[resolvedVariant];
 
@@ -83,7 +93,6 @@ const Navbar = ({ variant }: NavbarProps) => {
     "Profile";
 
   useEffect(() => {
-    setIsMounted(true);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
     };
