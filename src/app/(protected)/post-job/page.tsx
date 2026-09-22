@@ -1,7 +1,7 @@
 import { createClient } from "@/utils/supabase/server";
 import { prisma } from "@/utils/prisma";
 import { JobForm } from "@/components/jobs/JobForm";
-import { createJob } from "../actions";
+import { createJob } from "./actions";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default async function PostJobPage() {

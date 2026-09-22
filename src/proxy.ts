@@ -17,7 +17,7 @@ const publicPaths = [
 const authOnlyPaths = ["/auth/login", "/auth/register", "/auth/forgot-password"];
 
 const seekerOnlyPaths = ["/applications", "/saved-jobs"];
-const recruiterOnlyPaths = ["/dashboard/recruiter", "/candidates"];
+const recruiterOnlyPaths = ["/post-job", "/candidates"];
 const adminOnlyPaths = ["/admin"];
 
 function isPublicPath(pathname: string): boolean {
@@ -39,10 +39,6 @@ function getRoleHome(role: string | undefined): string {
 function isJobDetailPath(pathname: string): boolean {
     // /jobs/:id is the public job-detail page
     return /^\/jobs\/[^/]+$/.test(pathname);
-}
-
-function isJobEditPath(pathname: string): boolean {
-    return /^\/dashboard\/recruiter\/jobs\/[^/]+\/edit$/.test(pathname);
 }
 
 export async function proxy(request: NextRequest) {
@@ -96,7 +92,6 @@ export async function proxy(request: NextRequest) {
         (recruiterOnlyPaths.some((p) => pathname.startsWith(p)) &&
             !isRecruiter &&
             !isAdmin) ||
-        (isJobEditPath(pathname) && !isRecruiter && !isAdmin) ||
         (adminOnlyPaths.some((p) => pathname.startsWith(p)) && !isAdmin);
 
     if (accessDenied) {
