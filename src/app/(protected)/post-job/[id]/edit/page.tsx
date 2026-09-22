@@ -49,7 +49,10 @@ export default async function EditJobPage({ params }: Props) {
                 description: job.description,
                 tags: job.tags,
               }}
-              onSubmit={async (payload) => updateJob(id, payload)}
+              onSubmit={async (payload) => {
+                "use server";
+                return updateJob(id, payload);
+              }}
             />
           </CardContent>
         </Card>

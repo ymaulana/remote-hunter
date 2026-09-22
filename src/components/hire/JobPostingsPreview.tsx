@@ -65,7 +65,7 @@ const JobPostingsPreview = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <Link href="/dashboard/recruiter/jobs/new">
+            <Link href="/post-job">
               <Button size="lg" className="bg-primary px-8">
                 <Plus className="mr-2 h-5 w-5" /> Post New Job
               </Button>
