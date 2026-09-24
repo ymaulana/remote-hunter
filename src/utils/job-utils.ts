@@ -106,3 +106,39 @@ export function parseTagsInput(raw: string): string[] {
   }
   return tags;
 }
+
+/**
+ * Converts a job title into a URL-safe slug: lowercased, with runs of
+ * characters outside [a-z0-9] folded into a single dash and edge dashes
+ * trimmed. Titles with no ASCII alphanumerics (e.g. CJK-only) yield "".
+ */
+export function slugifyTitle(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/**
+ * Builds the public detail URL slug for a job: the immutable uuid id
+ * (canonical lookup key) plus a cosmetic title-slug segment. Falls back to
+ * the bare id when the title has no ASCII alphanumerics, so the result is
+ * always parseable by `jobIdFromSlug`.
+ */
+export function jobSlug({ id, title }: { id: string; title: string }): string {
+  const titleSlug = slugifyTitle(title);
+  return titleSlug ? `${id}-${titleSlug}` : id;
+}
+
+const UUID_PREFIX_RE =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i;
+
+/**
+ * Extracts the canonical job id from a detail-page slug. Accepts both
+ * `{uuid}-{title-slug}` and bare `{uuid}` (legacy `/jobs/<id>` URLs);
+ * returns null when no leading uuid is present.
+ */
+export function jobIdFromSlug(slug: string): string | null {
+  const match = UUID_PREFIX_RE.exec(slug);
+  return match ? match[0].toLowerCase() : null;
+}
