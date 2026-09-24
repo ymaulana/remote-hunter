@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Job } from "@/components/hooks/useJobs";
 import { MapPin, DollarSign, Briefcase, ExternalLink } from "lucide-react";
 import Link from "next/link";
+import { jobSlug } from "@/utils/job-utils";
 
 interface JobCardProps {
   job: Job;
@@ -20,7 +21,7 @@ export default function JobCard({ job, index = 0 }: JobCardProps) {
       className="group bg-card border-border/60 hover:border-primary/20 relative overflow-hidden rounded-xl border p-6 shadow-sm transition-all duration-300 hover:shadow-md"
     >
       <div className="relative flex h-full flex-col">
-        <Link href={`/jobs/${job.id}`} className="block h-full">
+        <Link href={`/jobs/${jobSlug(job)}`} className="block h-full">
           <div className="mb-5 flex items-start justify-between">
             <div className="flex-1">
               <h3 className="text-foreground group-hover:text-primary mb-1 text-lg font-bold transition-colors">

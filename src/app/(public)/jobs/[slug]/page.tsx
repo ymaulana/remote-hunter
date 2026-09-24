@@ -15,11 +15,13 @@ import {
 import Link from "next/link";
 import ClientDate from "@/components/ui/ClientDate";
 import { ApplyDialog } from "@/components/jobs/ApplyDialog";
+import { jobIdFromSlug } from "@/utils/job-utils";
 
 export default function JobDetailPage() {
   const params = useParams();
-  const jobId = params.id as string;
-  const { data: job, isLoading, error } = useJob(jobId);
+  const slug = params.slug as string;
+  const jobId = jobIdFromSlug(slug);
+  const { data: job, isLoading, error } = useJob(jobId ?? "");
 
   if (isLoading) {
     return (
