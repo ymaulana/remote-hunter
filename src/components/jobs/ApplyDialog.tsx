@@ -21,7 +21,8 @@ import {
   buildResumeStoragePath,
   isAllowedResumeFile,
 } from "@/utils/resume-utils";
-import { getApplyContext, applyToJob } from "@/app/(public)/jobs/[id]/actions";
+import { getApplyContext, applyToJob } from "@/app/(public)/jobs/[slug]/actions";
+import { jobSlug } from "@/utils/job-utils";
 
 export function ApplyDialog({ jobId, jobTitle }: { jobId: string; jobTitle: string }) {
   const router = useRouter();
@@ -91,7 +92,7 @@ export function ApplyDialog({ jobId, jobTitle }: { jobId: string; jobTitle: stri
   if (ctx && !ctx.authenticated) {
     return (
       <Button asChild className="w-full">
-        <Link href={`/auth/login?redirect=/jobs/${jobId}`}>Sign in to apply</Link>
+        <Link href={`/auth/login?redirect=/jobs/${jobSlug({ id: jobId, title: jobTitle })}`}>Sign in to apply</Link>
       </Button>
     );
   }

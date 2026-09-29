@@ -97,7 +97,7 @@ export async function updateJob(jobId: string, payload: JobPayload) {
 
   revalidatePath("/profile");
   revalidatePath("/jobs");
-  revalidatePath(`/jobs/${jobId}`);
+  revalidatePath("/jobs/[slug]", "page");
 
   return { success: true as const };
 }
