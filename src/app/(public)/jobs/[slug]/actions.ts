@@ -88,6 +88,7 @@ export async function applyToJob(payload: {
         userId: user.id,
         status: "PENDING",
         coverLetter: coverLetter || null,
+        resumeStoragePath: finalPath,
       },
     });
   } catch (err: any) {
