@@ -324,6 +324,12 @@ export function RecruiterProfile({
                         </div>
                         <div className="flex shrink-0 items-center gap-2 self-start md:self-center">
                           <Button variant="outline" size="sm" asChild>
+                            <Link href={`/post-job/${job.id}/applicants`}>
+                              <Users className="h-3.5 w-3.5" />
+                              Applicants ({job._count.applications})
+                            </Link>
+                          </Button>
+                          <Button variant="outline" size="sm" asChild>
                             <Link href={`/post-job/${job.id}/edit`}>
                               <Pencil className="h-3.5 w-3.5" />
                               Edit

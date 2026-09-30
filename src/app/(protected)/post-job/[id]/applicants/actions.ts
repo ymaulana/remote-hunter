@@ -5,6 +5,15 @@ import { createClient } from "@/utils/supabase/server";
 import { prisma } from "@/utils/prisma";
 import { applicationStatusSchema } from "@/utils/application-utils";
 
+function isPrismaKnownError(err: unknown): err is { code: string } {
+  return (
+    typeof err === "object" &&
+    err !== null &&
+    "code" in err &&
+    typeof (err as { code: unknown }).code === "string"
+  );
+}
+
 async function getUser() {
   const supabase = await createClient();
   const {
@@ -44,8 +53,10 @@ export async function updateApplicationStatus(
       where: { id: applicationId },
       data: { status: parsed.data },
     });
-  } catch (err: any) {
-    if (err?.code === "P2025") return { error: "NOT_FOUND" as const };
+  } catch (err: unknown) {
+    if (isPrismaKnownError(err) && err.code === "P2025") {
+      return { error: "NOT_FOUND" as const };
+    }
     throw err;
   }
 
