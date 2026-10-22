@@ -93,6 +93,7 @@ model Application {
   status      ApplicationStatus @default(PENDING)
   appliedAt   DateTime          @default(now())
   coverLetter String?
+  resumeStoragePath String?
 
   @@unique([jobId, userId])
 }
